@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Suez+One&display=swap');
+
+.row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.column1 {
+  flex-basis: 50%;
+  min-width: 300px;
+}
+
+
+.club-name{
+  font-family: 'Suez One';
+  font-size: 5rem;
+  line-height: 60px;
+  margin-right: 25px 0;
+  color: #FFFFFF;
+  transform: translateY(300%);
+  margin-left: 6rem;
+}
+.tagline{
+  font-family: 'Comfortaa', cursive;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 1.5rem;
+  transform: translateY(490%);
+  text-align: right;
+  margin-right: 1rem;
+}
+
+.globe{
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  right: 0px;
+}
+
+.Smedia1 {
+  width: 40px;
+  height: 40px;
+  background-color: #F8F9FA;
+  border-radius: 50%;
+  position: relative;
+  margin: 5px;
+  z-index:1;
+  -webkit-box-shadow: inset 0px 4px 4px 0px rgba(0,0,0,0.25) , 0px 4px 4px 0px rgba(0,0,0,0.25); 
+  box-shadow: inset 0px 4px 4px 0px rgba(0,0,0,0.25) , 0px 4px 4px 0px rgba(0,0,0,0.25);
+}
+
+.Smedia1:hover {
+  background-color: #00C2FF;
+  -webkit-box-shadow: 0px 1px 4px 1px #0038FF, inset 3px 5px 8px -1px #BAE1FC; 
+  box-shadow: 0px 1px 4px 1px #0038FF, inset 3px 5px 8px -1px #BAE1FC;
+}
+
+.SMediaGroup{
+  display: grid;
+  justify-content: left;
+  align-items: left;
+  margin-top: 13rem;
+  margin-left: 1rem;
+}
+
+.icon{
+  justify-content: center;
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8px;
+  position:relative;
+  z-index:2;
+  width: 23px;
+  height: 23px;
+
+}
