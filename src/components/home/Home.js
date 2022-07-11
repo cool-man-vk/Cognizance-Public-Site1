@@ -13,12 +13,15 @@ class Home extends Component {
     render() {
         return (  
             <>
+        <div className="empty-row">
+
+        </div>
         <div className="row">
             <div className="column1">
                 <p className="club-name">COGNIZANCE</p>
                 <p className="tagline">A student club for innovative minds</p>
             </div>
-            <div className="column1">
+            <div className="column2">
                 <img className="globe" src={globe} />
             </div>
         </div>

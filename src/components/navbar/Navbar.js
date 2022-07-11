@@ -1,18 +1,18 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 import './navbar.css';
 import logo from './images/logo.png';
+import { GiHamburgerMenu } from "react-icons/gi"; 
 import {Link} from 'react-router-dom';
 
-class Navbar extends Component {
-    state = {  }
-    render() {
-        return (  
+function Navbar() {
+    const [showMediaIcons, setShowMediaIcons] = useState(false);
+    return(  
             <> 
         <div className="navbar">
                 <div href="/" className="logo">
                     <img className="Logo" src={logo} alt="Logo" />  
                 </div>
-                <nav>
+                <nav className={showMediaIcons ? "menu-link mobile-menu-link" : "menu-link"}>
                     <ul>
                         <li>
                             <a href="/" className="nav-links">
@@ -36,15 +36,20 @@ class Navbar extends Component {
                         </li>
                     </ul>
                 </nav>
-
-                <button className="btn btn-01">Apply</button>
+                <div className="hamburger-menu">
+                    <a href="/#" onClick={() => setShowMediaIcons(!showMediaIcons)}>
+                        <GiHamburgerMenu/>
+                    </a>
+                </div>
+                <div className="apply-btn">
+                    <button className="btn btn-01">Apply</button>
+                </div>
                     
                 
             </div> 
      </>
            
          );
-    }
 }
  
 export default Navbar;
