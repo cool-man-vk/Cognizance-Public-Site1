@@ -13,9 +13,6 @@ class Home extends Component {
     render() {
         return (  
             <>
-        <div className="empty-row">
-
-        </div>
         <div className="row">
             <div className="column1">
                 <p className="club-name">COGNIZANCE</p>
