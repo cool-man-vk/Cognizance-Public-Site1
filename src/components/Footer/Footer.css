@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Suez+One&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+footer {
+  width: 100%;
+  height: 161px;
+  background-color: #16003b;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  margin: 40px;
+  margin-left: 54px;
+}
+.logo img {
+  width: 74px;
+  height: 82px;
+}
+.copyright {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 22px;
+  color: #ffffff;
+  margin: 66px 0px;
+}
+
+.Smedia1 {
+  width: 33px;
+  height: 33px;
+  background-color: #f8f9fa;
+  border-radius: 50%;
+  position: relative;
+  margin: 5px;
+  z-index: 1;
+  -webkit-box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.Smedia1:hover {
+  background-color: #00c2ff;
+  -webkit-box-shadow: 0px 1px 4px 1px #0038ff, inset 3px 5px 8px -1px #bae1fc;
+  box-shadow: 0px 1px 4px 1px #0038ff, inset 3px 5px 8px -1px #bae1fc;
+}
+
+.SMediaGroup {
+  display: flex;
+  flex-direction: row;
+  margin: 58px 0px;
+  margin-right: 10%;
+}
+
+.icon {
+  justify-content: center;
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8px;
+  position: relative;
+  z-index: 2;
+  width: 19px;
+  height: 19px;
+}
+
+@media only screen and (max-width:900px){
+  footer{
+    flex-direction: column;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+  }
+  .logo{
+    margin: 3rem 0px;
+  }
+  .copyright{
+    margin: 1rem 0px;
+  }
+  .SMediaGroup{
+    margin: 3rem 0px;
+  }
+}
