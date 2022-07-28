@@ -1,10 +1,10 @@
 import React from "react";
 import "./Footer.css";
-import logo from "../Images/logo.png";
-import mail from '../Images/mail.png';
-import github from "../Images/github.png";
-import linkedin from "../Images/linkedin.png";
-import instagram from "../Images/instagram.png";
+import logo from "./Images/logo.png";
+import mail from './Images/mail.png';
+import github from "./Images/github.png";
+import linkedin from "./Images/linkedin.png";
+import instagram from "./Images/instagram.png";
 const Footer = () => {
   return (
     <>
