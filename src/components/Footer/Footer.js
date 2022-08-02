@@ -1,9 +1,9 @@
 import React from "react";
 import "./Footer.css";
-import fmail from './Images/mail.png';
-import fgithub from "./Images/github.png";
-import flinkedin from "./Images/linkedin.png";
-import finstagram from "./Images/instagram.png";
+import fmail from '../Images/Logo/mail.png';
+import fgithub from "../Images/Logo/github.png";
+import flinkedin from "../Images/Logo/linkedin.png";
+import finstagram from "../Images/Logo/instagram.png";
 const Footer = () => {
   return (
     <>

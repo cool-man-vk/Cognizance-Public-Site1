@@ -1,0 +1,24 @@
+
+
+/* ------------ CSS FOR RESPONSIVENESS ------------ */
+.team {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 2rem;
+  justify-content: space-around;
+  justify-items: center;
+  padding: 4rem;
+
+
+}
+
+.contbg{
+  /*background-image: linear-gradient(rgba(255, 223, 229, 0.998), rgb(189, 130, 238));*/
+  /*text-align: center;*/
+  background-color: #00111B;
+}
+
+
+
+
+

@@ -1,22 +1,27 @@
 import React, { Component } from 'react';
 import Rive, { useRive, useStateMachineInput } from 'rive-react';
 import './home.css';
-import mail from './images/mail.png';
-import instagram from './images/instagram.png';
-import github from './images/github.png';
-import linkedin from './images/linkedin.png';
-import globe from './images/globe.png';
-import group from './images/grp.png';
-import mv from './images/m_v.png';
-import goal from './images/l.png';
+import mail from '../Images/Logo/mail.png';
+import instagram from '../Images/Logo/instagram.png';
+import github from '../Images/Logo/github.png';
+import linkedin from '../Images/Logo/linkedin.png';
+// import globe from '../Images/globe.png';
+import group from '../Images/Illustrations/sp.json';
+import mv from '../Images/Illustrations/m_v.png';
+import goal from '../Images/Illustrations/l.png';
 import {Link} from 'react-router-dom';
+import Navbar from '../navbar/Navbar';
+import Footer from '../Footer/Footer';
+import robo from '../Images/Illustrations/RiveRobot.riv';
+import { useLottie } from "lottie-react";
+import Achievement from '../Achievements/Achievements';
 
 function Home() {
     const SM = "State Machine 1";
     const IP = "Click";
   
     const {rive, RiveComponent } = useRive({
-      src: "new_file.riv",
+      src: robo,
       stateMachines: SM,
       autoplay: true,
     });
@@ -26,9 +31,16 @@ function Home() {
       SM,
       IP
     );
+
+    const options = {
+        animationData: group,
+        loop: true,
+      };
+    
+    const { View } = useLottie(options);
     return( 
             <>
-            
+            <Navbar />
         <div className="row">
             <div className="column1">
                 <p className="club-name">COGNIZANCE</p>
@@ -55,7 +67,7 @@ function Home() {
         <div className="main-con">
             <div className="row1">
                 <div className="cell-1">
-                    <img className="grp" src={group} />
+                    {View}                
                 </div>
                 <div className="cell-2">
                     <p className='club-hd'>Club Formation</p>
@@ -131,6 +143,8 @@ function Home() {
                 
             </div>
         </div>
+        <Achievement />
+        <Footer />
      </>
            
     );

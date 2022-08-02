@@ -75,7 +75,7 @@
 
 }
 .main-con{
-  background:url('./images/HomeBg.png');
+  background:url('../Images/Illustrations/HomeBg.png');
   background-size: 100vw 600vh;
   padding-top: 70px;
 }
@@ -97,6 +97,10 @@
 .cell-2{
   grid-column: 4/4;
   
+}
+.club-hd{
+  font-style: oblique;
+  font-size: 15px;
 }
 .row2{
   display: grid;
