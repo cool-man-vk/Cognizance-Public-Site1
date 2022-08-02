@@ -14,7 +14,7 @@ const Navbar = () => {
     return(  
             <> 
         <header>
-                <div href="/" className="logo">
+                <div href="/" className="clogo">
                     <img className="Logo" src={logo} alt="Logo" />  
                 </div>
                 <nav ref={navRef}>
@@ -41,8 +41,8 @@ const Navbar = () => {
                 <button className="nav_btn nav_bar" onClick={handleClick}>
                     <FaBars />
                 </button>
-                <div className="apply-btn">
-                    <button className="btn btn-01">Apply</button>
+                <div className="apply-B">
+                    <a className="B third" href="https://forms.gle/R6tD43pkSjMKpzPk7" target="_blank">Apply</a>
                 </div>
                     
                 
