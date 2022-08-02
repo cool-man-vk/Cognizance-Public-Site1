@@ -31,7 +31,7 @@ const Navbar = () => {
                     </li>
         
                     <li>
-                        <a href=""> Blogs </a>
+                        <a href=""> Gallery </a>
                     </li>
                     
                     <button className="nav_btn nav_close" onClick={handleClick}>
