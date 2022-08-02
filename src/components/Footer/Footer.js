@@ -1,10 +1,9 @@
 import React from "react";
 import "./Footer.css";
-import logo from "./Images/logo.png";
-import mail from './Images/mail.png';
-import github from "./Images/github.png";
-import linkedin from "./Images/linkedin.png";
-import instagram from "./Images/instagram.png";
+import fmail from './Images/mail.png';
+import fgithub from "./Images/github.png";
+import flinkedin from "./Images/linkedin.png";
+import finstagram from "./Images/instagram.png";
 const Footer = () => {
   return (
     <>
@@ -13,31 +12,31 @@ const Footer = () => {
           <img src={logo} alt="https://www.instagram.com" />
         </div> */}
 
-        <div className="SMediaGroup">
-          <div className="Smedia1">
+        <div className="FMediaGroup">
+          <div className="Fmedia1">
             <a href="mailto:contact@cognizance-amrita.in" target="_blank">
-              <img className="mail icon" src={mail} />
+              <img className="fmail icon" src={fmail} />
             </a>
           </div>
-          <div className="Smedia1">
+          <div className="Fmedia1">
             <a
               href="https://www.instagram.com/cognizance.amrita"
               target="_blank"
             >
-              <img className="instagram icon" src={instagram} />
+              <img className="finstagram icon" src={finstagram} />
             </a>
           </div>
-          <div className="Smedia1">
+          <div className="Fmedia1">
             <a href="https://github.com/cognizance-amrita" target="_blank">
-              <img className="github icon" src={github} />
+              <img className="fgithub icon" src={fgithub} />
             </a>
           </div>
-          <div className="Smedia1">
+          <div className="Fmedia1">
             <a
               href="https://www.linkedin.com/company/cognizance-amrita/"
               target="_blank"
             >
-              <img className="linkedin icon" src={linkedin} />
+              <img className="flinkedin icon" src={flinkedin} />
             </a>
           </div>
         </div>

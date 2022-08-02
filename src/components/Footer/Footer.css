@@ -1,12 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Suez+One&display=swap");
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
+
 footer {
   width: 100%;
-  height: 118px;
+  height: 90px;
   background-color: #16003b;
   display: flex;
   flex-direction: column;
@@ -30,10 +26,10 @@ footer {
   line-height: 22px;
   color: #ffffff;
   padding-top: 0.4rem;
-  padding-bottom: 1.2rem;
+  padding-bottom: 2px;
 }
 
-.Smedia1 {
+.Fmedia1 {
   width: 33px;
   height: 33px;
   background-color: #f8f9fa;
@@ -47,17 +43,17 @@ footer {
     0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.Smedia1:hover {
+.Fmedia1:hover {
   background-color: #00c2ff;
   -webkit-box-shadow: 0px 1px 4px 1px #0038ff, inset 3px 5px 8px -1px #bae1fc;
   box-shadow: 0px 1px 4px 1px #0038ff, inset 3px 5px 8px -1px #bae1fc;
 }
 
-.SMediaGroup {
+.FMediaGroup {
   display: flex;
   flex-direction: row;
-  padding-top: 1.2rem;
-  padding-bottom: 0.4rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.2rem;
 }
 
 .icon {
@@ -80,14 +76,12 @@ footer {
     align-items: center;
     justify-content: center;
   }
-  .logo {
-    /* margin: 3rem 0px; */
-  }
+
   .copyright {
     /* margin: 1rem 0px; */
     font-size: 16px;
   }
-  .SMediaGroup {
+  .FMediaGroup {
     /* margin: 3rem 0px; */
   }
 }
