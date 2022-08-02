@@ -19,15 +19,15 @@ const Navbar = () => {
                 </div>
                 <nav ref={navRef}>
                     <li> 
-                        <a href=""> Home </a>
+                        <a href="/"> Home </a>
                     </li>
         
                     <li>
-                        <a href=""> The Team </a>
+                        <a href="/Team"> The Team </a>
                     </li>
         
                     <li>
-                        <a href=""> Achievements </a>
+                        <a href="/Achievements"> Achievements </a>
                     </li>
         
                     <li>

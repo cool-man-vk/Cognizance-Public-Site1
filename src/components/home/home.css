@@ -58,7 +58,7 @@
   display: grid;
   justify-content: left;
   align-items: left;
-  margin-left: 1rem;
+  margin: 2rem;
 }
 
 .icon{
@@ -115,6 +115,10 @@
   display: grid;
   grid-column: 3/3;
 }
+.vis-info li{
+  text-decoration: none;
+  list-style: none;
+}
 .mv{
   width: 550px;
   height: 400px; 
@@ -125,7 +129,6 @@
   justify-content: center;
   justify-items: center;
   align-items: center;
-
 }
 .cell-5{
   display: block;

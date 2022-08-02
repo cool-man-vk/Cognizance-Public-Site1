@@ -2,13 +2,14 @@
 
 footer {
   width: 100%;
-  height: 90px;
+  height: 100px;
   background-color: #16003b;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
+  Padding: 2rem;
 }
 .logo {
   margin: 40px;
@@ -26,7 +27,7 @@ footer {
   line-height: 22px;
   color: #ffffff;
   padding-top: 0.4rem;
-  padding-bottom: 2px;
+  padding-bottom: 1rem;
 }
 
 .Fmedia1 {
