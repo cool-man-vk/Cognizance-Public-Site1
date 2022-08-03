@@ -46,14 +46,16 @@ class Achievements extends Component {
   render() {
     return (
       <>
+
         <div className="AchievementsContainer">
+          <h2 className="titleac">ACHIEVEMENTS</h2>
           <OwlCarousel
             className="owl-theme"
             loop={true}
             margin={9}
             responsive={this.state.responsive}
           >
-            <div class="item A1">
+            <div class="item A2">
               <img className="BnB" src={BnB} />
               <div className="A1Text">
                 <p>
@@ -67,7 +69,7 @@ class Achievements extends Component {
                 </p>
               </div>
             </div>
-            <div className="item A1">
+            <div className="item A2">
               <img className="S" src={S} />
               <div className="A1Text">
                 <p>
@@ -183,17 +185,17 @@ class Achievements extends Component {
             {/*        <p><span>Heartiest Congratulations to Aniket Mishra (CYS 2nd Year)</span> recipient of Summer Research Internship at IIT Delhi 🎓</p>*/}
             {/*    </div>*/}
             {/*</div>*/}
-            <div className="item A2">
-              <img className="WI" src={winja} />
-              <div className="A1Text">
-                <p>
-                  <span>
-                    Heartiest Congratulations to Aniket Mishra (CYS 2nd Year)
-                  </span>{" "}
-                  recipient of Summer Research Internship at IIT Delhi 🎓
-                </p>
-              </div>
-            </div>
+            {/*<div className="item A2">*/}
+            {/*  <img className="WI" src={winja} />*/}
+            {/*  <div className="A1Text">*/}
+            {/*    <p>*/}
+            {/*      <span>*/}
+            {/*        Heartiest Congratulations to Aniket Mishra (CYS 2nd Year)*/}
+            {/*      </span>{" "}*/}
+            {/*      recipient of Summer Research Internship at IIT Delhi 🎓*/}
+            {/*    </p>*/}
+            {/*  </div>*/}
+            {/*</div>*/}
             <div className="item A2">
               <img className="TC" src={TC} />
               <div className="A1Text">
@@ -225,10 +227,7 @@ class Achievements extends Component {
               <img className="GC" src={GC} />
               <div className="A1Text">
                 <p>
-                  <span>
-                    Heartiest Congratulations to Aniket Mishra (CYS 2nd Year)
-                  </span>{" "}
-                  recipient of Summer Research Internship at IIT Delhi 🎓
+                  Heartiest Congratulations to ✨ Tejendra Saradhi (II yr CYS), Shraddha Chopra (II yr CYS), Venkatakrishnan (II yr CSE-AI), Sanjai Siddharthan (III yr CSE)
                 </p>
               </div>
             </div>

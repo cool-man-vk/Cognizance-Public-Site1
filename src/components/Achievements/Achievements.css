@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 .carousel_____container {
   width: auto !important;
 }
@@ -6,14 +7,21 @@
   width: 100%;
   height: 100%;
   background-size: 100vw 100vh;
-  background: url("../Images/Illustrations/PageBg.png") no-repeat fixed center /
+  background: url("../Images/Illustrations/HomeBg.png") no-repeat fixed center /
     cover;
   overflow: hidden;
   justify-content: center;
   align-items: center;
-  display: flex;
+  /*display: grid;*/
 }
-
+.titleac{
+  /*font-family: 'Righteous', cursive;*/
+    font-size: 2.5rem;
+    font-weight: 700    !important;
+    color: #000000;
+    text-align: center;
+    margin-top: 2rem;
+}
 .A1 {
   background: rgba(255, 255, 255, 0.1);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -23,7 +31,7 @@
   width: 100%;
   height: 100%;
   padding: 20px;
-  margin: 20px;
+  margin:auto !important;
   display: block;
 }
 
@@ -130,17 +138,20 @@
 }
 
 .WI {
-  height: 59vh;
+  height: auto !important;
+  /*width: auto !important;*/
 }
 
 .GC {
-  height: 59vh;
+  height: auto !important;
+  /*width: auto !important;*/
 }
 
 .AM {
-  height: 56vh;
+  height: auto;
 }
 
 .TC {
-  height: 47vh;
+  height: auto;
+  width: auto !important;
 }
