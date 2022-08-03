@@ -1,149 +1,146 @@
-.carousel_____container{
-    width: auto !important;
+.carousel_____container {
+  width: auto !important;
 }
 
-.AchievementsContainer{
-    width:100%;
-    height:100%;
-    background-size: 100vw 100vh;
-    background: url('../Images/Illustrations/PageBg.png') no-repeat fixed center / cover;
-    overflow: hidden;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+.AchievementsContainer {
+  width: 100%;
+  height: 100%;
+  background-size: 100vw 100vh;
+  background: url("../Images/Illustrations/PageBg.png") no-repeat fixed center /
+    cover;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
-.A1{
-    background: rgba( 255, 255, 255, 0.1 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 5px );
-    -webkit-backdrop-filter: blur( 5px );
-    border-radius: 10px;
-    width: 100%;
-    height: 100%;
-    padding: 20px;
-    margin: 20px;
-    display: block;
+.A1 {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  margin: 20px;
+  display: block;
 }
 
-.A2{
-    background: rgba( 255, 255, 255, 0.1 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 5px );
-    -webkit-backdrop-filter: blur( 5px );
-    border-radius: 10px;
-    width: auto;
-    height: auto;
-    padding: 20px 20px 10%  20px;
-    margin: 20px;
-    display: block;
+.A2 {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 10px;
+  width: auto;
+  height: auto;
+  padding: 20px 20px 10% 20px;
+  margin: 20px;
+  display: block;
 }
-.A3{
-    background: rgba( 255, 255, 255, 0.1 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 5px );
-    -webkit-backdrop-filter: blur( 5px );
-    border-radius: 10px;
-    width: 100%;
-    height: 130%;
-    padding: 20px 20px 29%  20px;
-    margin: 20px;
-    display: block;
-    justify-content: center;
-    align-items: center;
+.A3 {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 10px;
+  width: 100%;
+  height: 130%;
+  padding: 20px 20px 29% 20px;
+  margin: 20px;
+  display: block;
+  justify-content: center;
+  align-items: center;
 }
-.A4{
-    background: rgba( 255, 255, 255, 0.1 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 5px );
-    -webkit-backdrop-filter: blur( 5px );
-    border-radius: 10px;
-    width: 100%;
-    height: 130%;
-    padding: 20px 20px 10%  20px;
-    margin: 20px;
-    display: block;
+.A4 {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 10px;
+  width: 100%;
+  height: 130%;
+  padding: 20px 20px 10% 20px;
+  margin: 20px;
+  display: block;
 }
-.BnB{
-    width: 80% !important;
-    height: 80%;
-    display: block !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-}
-
-.S{
-    width: 54% !important;
-    height: 60%;
-    display: block !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
+.BnB {
+  width: 80% !important;
+  height: 80%;
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
-.M{
-    width: 80% !important;
-    height: 100%;
-    display: block !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
+.S {
+  width: 54% !important;
+  height: 60%;
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
-.OH{
-    width: 100% !important;
-    height: 100%;
-    display: block !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
+.M {
+  width: 80% !important;
+  height: 100%;
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
-.A1Text{
-    justify-content: center;
-    align-items: center;
-    display: block;
-}
-.A3Text{
-    justify-content: center;
-    align-items: center;
-    display: block;
-    margin-top: 20px;
-}
-.A2Text{
-    justify-content: center;
-    align-items: center;
-    display: block;
-
+.OH {
+  width: 100% !important;
+  height: 100%;
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
-
-
-.A1Text p{
-    margin-top: 2rem;
-    font-weight: bold;
-    text-align: left;
-    margin-bottom: 0;
-
+.A1Text {
+  justify-content: center;
+  align-items: center;
+  display: block;
+}
+.A3Text {
+  justify-content: center;
+  align-items: center;
+  display: block;
+  margin-top: 20px;
+}
+.A2Text {
+  justify-content: center;
+  align-items: center;
+  display: block;
 }
 
-.TC{
-    width: 50%;
-    height: 59vh;
-    display: block;
-    margin-left: auto !important;
-    margin-right: auto !important;
+.A1Text p {
+  margin-top: 2rem;
+  font-weight: bold;
+  text-align: justify;
+  margin-bottom: 0;
 }
 
-.WI{
-    height: 59vh;
+.TC {
+  width: 50%;
+  height: 59vh;
+  display: block;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
-.GC{
-    height: 59vh;
+.WI {
+  height: 59vh;
 }
 
-.AM{
-    height: 56vh;
+.GC {
+  height: 59vh;
 }
 
-.TC{
-    height: 47vh;
+.AM {
+  height: 56vh;
+}
+
+.TC {
+  height: 47vh;
 }
