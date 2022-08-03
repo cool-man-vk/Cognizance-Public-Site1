@@ -65,6 +65,9 @@ function Home() {
             </div>
         </div>
         <div className="main-con">
+
+
+
             <div className="row1">
                 <div className="cell-1">
                 <img className="grp" src={group} />               
@@ -79,7 +82,7 @@ function Home() {
                     <p/>
                     <br/>
                     <p className="club-info"></p>
-                    By encouraging individuals to study and keep up with modern technologies, Prof. A. G. Sreedevi and Mr. Sanjay T launched this modest project, 
+                    By encouraging individuals to study and keep up with modern technologies, Dr. A. G. Sreedevi and Mr. Sanjay T launched this modest project,
                     and presently we have more than 100 participations annually. In contrast to the initial batch of cognizance, which consisted of about 10 individuals,
                     there are now more than 250 individuals working in three distinct fields.
 
@@ -98,21 +101,23 @@ function Home() {
                     <p className='vis'>Vision</p>
                     <br/>
                     <p className="vis-info">
-                        <li>
-                            To impart high quality professional training with an emphasis on current trends of Computer Science and Technology.
-                        </li> 
-                        <br/>
-                        <li>
-                            To train students to actively participate in nationally and internationally recognized technical events focused on innovation, diversity and social good.
-                        </li>
-                        <br/> 
-                        <li>
-                            To impart skills to solve complex technological problem of the modern society and provide them with a framework for promoting collaborative and multidisciplinary lifelong learning.
-                        </li>
-                        <br/> 
-                        <li>
-                            To organize various technical events and workshops to train the members to work on open-source projects and research activities.
-                        </li>
+                        <ul>
+                            <li>
+                                To impart high quality professional training with an emphasis on current trends of Computer Science and Technology.
+                            </li>
+                            <br/>
+                            <li>
+                                To train students to actively participate in nationally and internationally recognized technical events focused on innovation, diversity and social good.
+                            </li>
+                            <br/>
+                            <li>
+                                To impart skills to solve complex technological problem of the modern society and provide them with a framework for promoting collaborative and multidisciplinary lifelong learning.
+                            </li>
+                            <br/>
+                            <li>
+                                To organize various technical events and workshops to train the members to work on open-source projects and research activities.
+                            </li>
+                        </ul>
                     </p>
                 </div>
                 <div className="cell-4">
