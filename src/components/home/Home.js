@@ -6,9 +6,9 @@ import instagram from '../Images/Logo/instagram.png';
 import github from '../Images/Logo/github.png';
 import linkedin from '../Images/Logo/linkedin.png';
 // import globe from '../Images/globe.png';
-import group from '../Images/Illustrations/sp.json';
-import mv from '../Images/Illustrations/m_v.png';
-import goal from '../Images/Illustrations/l.png';
+import group from '../Images/Illustrations/Club Formation.png';
+import mv from '../Images/Illustrations/sp.json';
+import goal from '../Images/Illustrations/Goals.png';
 import {Link} from 'react-router-dom';
 import Navbar from '../navbar/Navbar';
 import Footer from '../Footer/Footer';
@@ -33,7 +33,7 @@ function Home() {
     );
 
     const options = {
-        animationData: group,
+        animationData: mv,
         loop: true,
       };
     
@@ -67,7 +67,7 @@ function Home() {
         <div className="main-con">
             <div className="row1">
                 <div className="cell-1">
-                    {View}                
+                <img className="grp" src={group} />               
                 </div>
                 <div className="cell-2">
                     <p className='club-hd'>Club Formation</p>
@@ -116,7 +116,7 @@ function Home() {
                     </p>
                 </div>
                 <div className="cell-4">
-                    <img className="mv" src={mv} />
+                   <p className='astro'> {View} </p>
                 </div>
                 
             </div>
