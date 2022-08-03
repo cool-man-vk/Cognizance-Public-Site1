@@ -26,7 +26,6 @@ import img22 from "../Images/DisplayPics/Shandila.jpg";
 import img23 from "../Images/DisplayPics/yurekan.jpg";
 import img24 from "../Images/DisplayPics/Rahul.jpg";
 import img25 from "../Images/DisplayPics/Rishabh.jpg";
-import img26 from "../Images/DisplayPics/aniket gupta.jpg";
 import img27 from "../Images/DisplayPics/Yogiraj.jpg";
 import img28 from "../Images/DisplayPics/Charan Krishna.jpg";
 import img29 from "../Images/DisplayPics/Vignesh.jpg";
@@ -36,9 +35,9 @@ import img32 from "../Images/DisplayPics/Paritosh.jpg";
 import Navbar from './../navbar/Navbar';
 import Footer from "../Footer/Footer";
 const Team = () => {
-  
+
   // Team Members Data list
-  
+
   let content = [
     {
       id: 1,
@@ -339,18 +338,6 @@ const Team = () => {
       insta: "https://www.instagram.com/rishabh_rajput_02",
     },
     {
-      id: 26,
-      src: img26,
-      name: "Aniket Gupta",
-      post: "Mentor",
-      dom: "Artificial Intelligence",
-      desc: "I am mentor in Cognizance club in artificial intelligence.  ",
-      mail: "aniketgupta0309@gmail.com",
-      gitHub: "https://github.com/Aniketgupta03",
-      linkIn: "https://www.linkedin.com/in/aniket-gupta-83b349219/",
-      insta: "https://www.instagram.com/blackvanilla_15/",
-    },
-    {
       id: 27,
       src: img27,
       name: "Bhagavatula Yogiraj",
@@ -424,32 +411,32 @@ const Team = () => {
     },
   ];
 
-  
+
   // Teams Members Component
-  
+
   return (
     <>
-    <div className="contbg">
-    <Navbar/>
-    
-    <div className="team">
-      {content.map((con) => (
-        <Card
-          key={con.id}
-          src={con.src}
-          name={con.name}
-          post={con.post}
-          dom={con.dom}
-          desc={con.desc}
-          mail={con.mail}
-          gitHub={con.gitHub}
-          linkedIn={con.linkIn}
-          instagram={con.insta}
-        />
-      ))}
-    </div>
-      <Footer/>
-    </div>
+      <div className="contbg">
+        <Navbar />
+
+        <div className="team">
+          {content.map((con) => (
+            <Card
+              key={con.id}
+              src={con.src}
+              name={con.name}
+              post={con.post}
+              dom={con.dom}
+              desc={con.desc}
+              mail={con.mail}
+              gitHub={con.gitHub}
+              linkedIn={con.linkIn}
+              instagram={con.insta}
+            />
+          ))}
+        </div>
+        <Footer />
+      </div>
     </>
   );
 };
