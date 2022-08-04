@@ -1,0 +1,45 @@
+.con {
+  background-image: linear-gradient(to top, #00c9a8, #688d50, #64542d, #3d2720, #000000);
+}
+.gallery {
+  padding: 2rem;
+  max-width: 100%;
+  margin: 0 2.5rem;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-auto-rows: 250px;
+  grid-auto-flow: dense;
+}
+.v-stretch {
+  grid-row: span 2;
+}
+.h-stretch {
+  grid-column: span 2;
+}
+.b-stretch {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+.gallery div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.7rem;
+}
+
+@media (max-width: 560px) {
+  .v-stretch {
+    grid-row: span 1;
+  }
+  .h-stretch {
+    grid-column: span 1;
+  }
+  .b-stretch {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+  .gallery{
+    margin: 0 1rem;
+  }
+}
