@@ -7,6 +7,7 @@ import { BrowserRouter as Router , Route , Routes } from 'react-router-dom';
 import Achievements from "./components/Achievements/Achievements";
 import Footer from "./components/Footer/Footer";
 import Team from "./components/Team/Team";
+import Gallery from "./components/Gallery/Gallery";
 function App() {
   return (
       <div className="page">
@@ -17,7 +18,7 @@ function App() {
                   <Route path="/Achievements" element={<Achievements/>} />
                   <Route path="/Footer" element={<Footer/>} />
                   <Route path="/Team" element={<Team />} />
-                  {/* <Route path="*" element={<Err404/>} /> */}
+                  <Route path="/Gallery" element={<Gallery />} />
               </Routes>
           </Router>
       </div>
