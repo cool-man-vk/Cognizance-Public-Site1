@@ -31,7 +31,7 @@ const Navbar = () => {
                     </li>
         
                     <li>
-                        <a href=""> Gallery </a>
+                        <a href="/Gallery"> Gallery </a>
                     </li>
                     
                     <button className="nav_btn nav_close" onClick={handleClick}>
