@@ -27,7 +27,7 @@ const Navbar = () => {
                     </li>
         
                     <li>
-                        <a href="/Achievements"> Achievements </a>
+                        <a href="#Achievements"> Achievements </a>
                     </li>
         
                     <li>

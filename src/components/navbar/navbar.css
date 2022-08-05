@@ -176,8 +176,17 @@ nav li a:hover::after{
 @media screen and (max-width: 450px){
  
   header{
-
     margin-bottom: 5vh;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding: 0 2rem;
+    background-color: transparent;
+    color: azure;
+    margin-bottom: 10vh;
+    z-index: 1000;
   }
 
 }
