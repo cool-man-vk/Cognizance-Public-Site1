@@ -440,7 +440,7 @@ const Team = () => {
       name: "Aniket Mishra",
       post: "Mentor",
       dom: "Open Source Domain",
-      desc: "I belong to CSE -Cyber Security department and I am a member and mentor of Open Source Domain in the Club, and I work in the domains of Web Dev, CP and ML.",
+      desc: "Heya! As a member of the CSE - Cyber Security department and a mentor in the Open Source Domain, I work in the areas of Web Development, Competitive Programming and Machine Learning. I have participated in many hackathons including the prestigious HackMIT and Hack The North and am currently working as a junior researcher in power systems for IIT’Delhi. I am open to exchanging knowledge and seeking challenges that would eventually make me better.",
       mail: "mailto:mishraaniket522@gmail.com",
       gitHub: "https://github.com/AnIkeT126",
       linkIn: "https://www.linkedin.com/in/aniket-mishra-125ab421b",
