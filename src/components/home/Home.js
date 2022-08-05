@@ -15,6 +15,14 @@ import Footer from '../Footer/Footer';
 import robo from '../Images/Illustrations/RiveRobot.riv';
 import { useLottie } from "lottie-react";
 import Achievement from '../Achievements/Achievements';
+import { BsBell } from 'react-icons/bs';
+import {AiFillPushpin} from 'react-icons/ai';
+import {BsChatQuoteFill} from 'react-icons/bs';
+import {GoBeaker} from 'react-icons/go';
+import {GoTools } from 'react-icons/go';
+import OS from '../Images/Illustrations/OS.png';
+import CYS from '../Images/Illustrations/CYS.jpg';
+import ML from '../Images/Illustrations/ML.jpg';
 
 function Home() {
     const SM = "State Machine 1";
@@ -50,6 +58,7 @@ function Home() {
             <RiveComponent className='ani' onMouseOver={() => onHoverIP.fire()}/> 
             </div>
         </div>
+
         <div className="SMediaGroup">
             <div className="Smedia1">
                 <a href="mailto:contact@cognizance-amrita.in" target="_blank"><img className="mail icon" src={mail} /></a>
@@ -64,90 +73,142 @@ function Home() {
                 <a href="https://www.linkedin.com/company/cognizance-amrita/" target="_blank"><img className="linkedin icon" src={linkedin} /></a>
             </div>
         </div>
+
         <div className="main-con">
+            <div className="row3">
+                <div class="go_obj">
+                    <div class="go_obj-info">
+                        <h1 class="btitle"># About Cognizance</h1>
+                        <p class="blog-text">
+                            We are a community of passionate students from Amrita Vishwa Vidyapeetham. Cognizance is for everyone, regardless of their career stage or current level of knowledge. Cognizance is a place where people of all genders and backgrounds can come together. We believe that learning is more enjoyable and efficient when we assist one another along the way.
+                        </p>
+                        <br/>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div className="totmem">
+                <p>The club has about 200+ passionate members currently </p>
+            </div>
+
+            <div className="row3">
+                <div className="whyC">
+                    <div className="go_obj-info">
+                        <h1 className="btitle">Why Cognizance?</h1>
+                        <div className="rowt">
+                            <div className="column">
+                                <div className="card1">
+                                    <div className="info">
+                                        <h5 className="infotxt">Bring your concepts to life</h5>
+                                        <GoBeaker className="bsbell"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="column">
+                                <div className="card1">
+                                    <div className="info">
+                                        <h5 className="infotxt">Experienced Mentors</h5>
+                                        <GoTools className="bsbell"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="rowt">
+                            <div className="column">
+                                <div className="card1">
+                                    <div className="info">
+                                        <h5 className="infotxt">+ve impact on your career</h5>
+                                        <AiFillPushpin className="bsbell"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="column">
+                                <div className="card1">
+                                    <div className="info">
+                                        <h5 className="infotxt">Peer to Peer mentoring</h5>
+                                        <BsChatQuoteFill className="bsbell"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="row3">
+                <div className="Dom">
+                    <div className="go_obj-info">
+                        <h1 className="title">Domains We Have</h1>
+                        <div className="rowt">
+                            <div className="column5">
+                                <div className="card2">
+                                    <div className="info">
+                                        <div className="row4">
+                                            <div className="column">
+                                                <img src={OS} className="OS"/>
+                                            </div>
+                                            <div className="column">
+                                                <h5 className="infotxt">Open Source</h5>
+                                                <p className="infot">The ideals of open exchange,
+                                                    collaborative involvement, quick prototyping, transparency ,
+                                                    and community-oriented development are all embraced and
+                                                    celebrated by open source projects, products, and initiatives.
+                                                    A fullstack development relates to the creation of a web
+                                                    application's front end and back end .
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="column5">
+                                <div className="card2">
+                                    <div className="info">
+                                        <div className="row4">
+                                            <div className="column">
+                                                <h5 className="infotxt">Cyber Security</h5>
+                                                <p className="infot">The practise of defending computers,
+                                                    servers, mobile devices, electronic systems, networks,
+                                                    and data from malicious attacks . It is also referred
+                                                    to as information technology security or electronic
+                                                    data security.
+                                                </p>
+                                            </div>
+                                            <div className="column">
+                                                <img src={CYS} className="OS"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="column5">
+                                <div className="card2">
+                                    <div className="info">
+                                        <div className="row4">
+                                            <div className="column">
+                                                <img src={ML} className="OS"/>
+                                            </div>
+                                            <div className="column">
+                                                <h5 className="infotxt">Artificial Intelligence</h5>
+                                                <p className="infot">Artificial intelligence is the study and development of computers and robots capable of mimicking and exceeding human capabilities. Machine learning is a AI subcategory employs algorithms to automatically learn insights and recognise patterns in data, with the goal of making increasingly better decisions.
+                                                </p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
-        <div className="row1">
-            <div class="cf">
-                <div class="cf-img">
-                    <img className="grp" src={group} />
-                </div>
-                <div class="cf-info">
-                    <h1 class="btitle">Club Formation</h1>   
-                    <p class="blog-text">
-                        Our distinguished institution's illustrious history dates back to its first year, when we had our modest beginnings with a peer learning effort to 
-                        assist students who were ignorant of the technical contests and industrial skills competitions that are held on a national and worldwide level. 
-                        For them, it was a big step to immediately begin programming and developing.
-                    </p>   
-                    <br/>
-                    <p class="blog-text">
-                        By encouraging individuals to study and keep up with modern technologies, Dr. A. G. Sreedevi and Mr. Sanjay T launched this modest project,
-                        and presently we have more than 100 participations annually. In contrast to the initial batch of cognizance, which consisted of about 10 individuals,
-                        there are now more than 250 individuals working in three distinct fields.
-                    </p>   
-                </div>
-            </div>
-        </div>
-        <div className="row2">
-            <div class="mv">
-                <div class="mv-img">
-                    <p className='astro'> {View} </p>
-                </div>
-                <div class="mv-info">
-                    <h1 class="btitle">Mission</h1>   
-                    <p>
-                        To provide a supportive environment to instill the passion about computer science and to provide needed skills, confidence, and opportunity to change 
-                        their world by becoming effective problem-solvers and lifelong learners. 
-                    </p>   
-                    <br/>
-                    <h1 class="btitle">Vision</h1>   
-                    <p>
-                        <ul>
-                            <li>
-                                To impart high quality professional training with an emphasis on current trends of Computer Science and Technology.
-                            </li>
-                            <br/>
-                            <li>
-                                To train students to actively participate in nationally and internationally recognized technical events focused on innovation, diversity and social good.
-                            </li>
-                            <br/>
-                            <li>
-                                To impart skills to solve complex technological problem of the modern society and provide them with a framework for promoting collaborative and multidisciplinary lifelong learning.
-                            </li>
-                            <br/>
-                            <li>
-                                To organize various technical events and workshops to train the members to work on open-source projects and research activities.
-                            </li>
-                        </ul> 
-                    </p>    
-                </div>
-            </div>
-        </div>
-        <div className="row3">
-            <div class="go_obj">
-                <div class="go_obj-img">
-                    <img className="go" src={goal} />
-                </div>
-                <div class="go_obj-info">
-                    <h1 class="btitle">Goals & Objectives</h1>   
-                    <p class="blog-text">
-                        The club is open to all students who have a passion for or interest in coding. This club provides a collaborative learning environment that promotes
-                        the self-learning mindset in the members thereby motivating them to actively participating in competitions like Hackathons, Catch the Flag (CTF), 
-                        Open-source projects, and internships.
-                    </p>   
-                    <br/>
-                    <p class="blog-text">
-                        The clubs strives to encourage the habit of extensive learning in the minds of students, organize various technical events and workshops to help 
-                        the members of the club to get used to the competitions held at industry-standards. We regularly work on projects focused on social good, thereby 
-                        encouraging the members to contribute to open-source projects which in turn provides them wonderful experience in working on such industrial projects.
-                        We also assist the members in taking their initial step toward entering challenging events like hackathons and capture the flag (CTF) tournaments.
-                    </p>   
-                </div>
-            </div>
-        </div>
-                
-        </div>
-        <Achievement />
+
+        {/*<Achievement />*/}
         <Footer />
      </>
            
