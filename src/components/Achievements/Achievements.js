@@ -18,6 +18,7 @@ import HackArmr from "../Images/Achievements/HackArmr.png";
 import CYSCL from "../Images/Achievements/CYSCL.png";
 import Uda from "../Images/Achievements/Uda.png";
 import Dmcn from "../Images/Achievements/Dmcn.png";
+import winja from "../Images/Achievements/winja.png";
 import GC from "../Images/Achievements/GC.png";
 import YU from "../Images/Achievements/YU.png";
 import UAWS from "../Images/Achievements/UAWS.png";
@@ -28,25 +29,27 @@ class Achievements extends Component {
   state = {
     responsive: {
       0: {
-        items: 1,
+        items: 1
       },
       450: {
-        items: 2,
+        items: 1
       },
-      600: {
-        items: 3,
+      660: {
+        items: 2
       },
-      1000: {
-        items: 4,
+      990: {
+        items: 3
       },
-    },
+      1200: {
+        items: 4
+      }
+    }
   };
 
   render() {
     return (
       <>
-
-        <div className="AchievementsContainer" id="Achievements">
+        <div className="AchievementsContainer">
           <h2 className="titleac">ACHIEVEMENTS</h2>
           <OwlCarousel
             className="owl-theme"
@@ -54,194 +57,425 @@ class Achievements extends Component {
             margin={9}
             responsive={this.state.responsive}
           >
-            <div class="item A2">
-              <img className="BnB" src={BnB} />
-              <div className="A1Text">
-                {/*<p>*/}
-                {/*  <span>Congratulations 🎊</span> to Team Bits' n Bytes for*/}
-                {/*  winning the Caterpillar Code-a-thon! All the teams received*/}
-                {/*  four potential issue statements, and Team Bits' n Bytes*/}
-                {/*  selected Fleet Management System as their problem statement*/}
-                {/*  and won 🎓. We would like to express our gratitude to the team*/}
-                {/*  mentor Dr. Aasha Nandhini, for her unwavering support and*/}
-                {/*  guidance during the Code-a-thon.*/}
-                {/*</p>*/}
-              </div>
-            </div>
-            <div className="item A2">
-              <img className="S" src={S} />
-              <div className="A1Text">
-                {/*<p>*/}
-                {/*  <span>Congratulations!✨</span>Our club president Mr. Sanjay T*/}
-                {/*  (CSE 4th Year) was among the top 15 in a commercial CMS/CRM*/}
-                {/*  contest organised by HubSpot.*/}
-                {/*  <br /> <br />*/}
-                {/*  The project: AgroAssist.*/}
-                {/*  <br />*/}
-                {/*  AgroAssist is a deep learning based crop disease classifier*/}
-                {/*  deployed on the cloud with Heroku powered with ONNX and*/}
-                {/*  PyTorch. The project is made exclusively for diseases of Apple*/}
-                {/*  trees.*/}
-                {/*</p>*/}
-              </div>
-            </div>
-            <div className="item A2">
-              <img className="CTF" src={CTF} />
-              <div className="A1Text">
-                {/*<p>*/}
-                {/*  <span>Congratulations 💫 to the team</span> <br />A heartfelt*/}
-                {/*  thanks to Dr. A.G.Sreedevi (Club's Advisor) for your great*/}
-                {/*  support and guidance*/}
-                {/*</p>*/}
-              </div>
-            </div>
-            <div className='item A4'>
-                <img className="OH" src={OH}/>
-                <div className="A1Text">
-                    {/*<p><span>Congratulations 💫 to the team</span> */}
-                    {/*  <br/>A heartfelt thanks to Dr. A.G.Sreedevi (Club's Advisor) */}
-                    {/*  for your great support and guidance*/}
-                    {/*</p>*/}
+            <div class="Achievement_card">
+              <div class="Achievement_card_inner">
+                <div class="Achievement_front_face">
+                  <img src={AWS} alt="" />
                 </div>
-            </div>
-            <div className="item A2">
-              <img className="CTF" src={WC} />
-              <div className="A1Text">
-                {/*<p>*/}
-                {/*  <span>Congratulations 💫 to the team</span> <br />A heartfelt*/}
-                {/*  thanks to Dr. A.G.Sreedevi (Club's Advisor) for your great*/}
-                {/*  support and guidance*/}
-                {/*</p>*/}
-              </div>
-            </div>
-            <div className="item A2">
-              <img className="CTF" src={HTB} />
-              <div className="A1Text">
-                {/*<p>*/}
-                {/*  <span>Congratulations 💫 to the team</span> <br />A heartfelt*/}
-                {/*  thanks to Dr. A.G.Sreedevi (Club's Advisor) for your great*/}
-                {/*  support and guidance*/}
-                {/*</p>*/}
-              </div>
-            </div>
-            <div className="item A2">
-              <img className="M" src={M} />
-              <div className="A1Text">
-                {/*<p>*/}
-                {/*  <span>*/}
-                {/*    Heartiest Congratulations to Manasa (CSE 4th Year){" "}*/}
-                {/*  </span>{" "}*/}
-                {/*  <br />*/}
-                {/*  for securing the Education Outreach scholarship by GirlScript*/}
-                {/*  Foundation 💫*/}
-                {/*</p>*/}
-              </div>
-            </div>
-            <div className="item A2">
-              <img className="AWS" src={AWS} />
-              <div className="A1Text">
-                {/*<p>*/}
-                {/*  <span>Congratulations 💫 to the team</span> <br />*/}
-                {/*  Project : Genie A Deep learning powered image credibility*/}
-                {/*  checker*/}
-                {/*</p>*/}
-              </div>
-            </div>
-            <div className="item A2">
-              <img className="AM" src={AM} />
-              <div className="A1Text">
-                {/*<p>*/}
-                {/*  <span>*/}
-                {/*    Heartiest Congratulations to Aniket Mishra (CYS 2nd Year)*/}
-                {/*  </span>{" "}*/}
-                {/*  recipient of Summer Research Internship at IIT Delhi 🎓*/}
-                {/*</p>*/}
-              </div>
-            </div>
-            <div className="item A2">
-              <img className="AM" src={HackArmr} />
-              <div className="A1Text">
-                {/*<p>*/}
-                {/*  <span>*/}
-                {/*    Heartiest Congratulations to Tejendra Saradhi (III yr CYS)*/}
-                {/*    For Getting 1st Position in hackARMOur CTF*/}
-                {/*  </span>*/}
-                {/*</p>*/}
-              </div>
-            </div>
-            <div className='item A2'>
-                <img className="AM" src={CYSCL}/>
-                <div className="A1Text">
-                    {/*<p><span>Heartiest Congratulations to Aniket Mishra */}
-                    {/*  (CYS 2nd Year)</span> recipient of Summer Research */}
-                    {/*  Internship at IIT Delhi 🎓*/}
-                    {/*</p>*/}
+                <div class="Achievement_back_face">
+                  <p>
+                    <span class="hil">Congratulations!✨</span>
+                    <br />
+                    Our club president Mr. Sanjay T (CSE 4th Year) was among the
+                    top 15 in a commercial CMS/CRM contest organised by HubSpot.
+                    <br /> <br />
+                    The project: AgroAssist.
+                    <br />
+                    <br />
+                    AgroAssist is a deep learning based crop disease classifier
+                    deployed on the cloud with Heroku powered with ONNX and
+                    PyTorch. The project is made exclusively for diseases of
+                    Apple trees.
+                  </p>
                 </div>
-            </div>
-            <div className='item A2'>
-                <img className="AM" src={Dmcn}/>
-                <div className="A1Text">
-                    {/*<p><span>Heartiest Congratulations to */}
-                    {/*  Aniket Mishra (CYS 2nd Year)</span> */}
-                    {/*  recipient of Summer Research Internship at IIT Delhi 🎓*/}
-                    {/*</p>*/}
-                </div>
-            </div>
-            <div className='item A2'>
-                <img className="AM" src={Uda}/>
-                <div className="A1Text">
-                    {/*<p><span>Heartiest Congratulations to */}
-                    {/*  Aniket Mishra (CYS 2nd Year)</span> */}
-                    {/*  recipient of Summer Research Internship at IIT Delhi 🎓*/}
-                    {/*</p>*/}
-                </div>
-            </div>
-            <div className="item A2">
-              <img className="TC" src={TC} />
-              <div className="A1Text">
-                {/*<p>*/}
-                {/*  Congratulations to Cyber0ids For Securing 40th Pos in*/}
-                {/*  TamilCTF, The Team Members are:*/}
-                {/*  <br /> Dhanvinesh K (III yr CYS) <br /> Aghilan A (III yr ECE){" "}*/}
-                {/*  <br /> Sanjai Siddharthan (IV yr CSE) <br /> Shraddha Chopra*/}
-                {/*  (III yr CYS) <br /> Jyothika Nambiar (III yr CYS)*/}
-                {/*</p>*/}
               </div>
             </div>
-            <div className="item A2">
-              <img className="AM" src={UAWS} />
-              <div className="A1Text">
-                {/*<p>*/}
-                {/*  Heartiest Congratulations to ✨ <br /> Naresh Kumar B (IV yr*/}
-                {/*  CSE) <br /> Sanjay T (IV yr CSE) <br /> Aparna J (III yr CSE)*/}
-                {/*</p>*/}
+            <div class="Achievement_card">
+              <div class="Achievement_card_inner">
+                <div class="Achievement_front_face">
+                  <img src={AM} alt="" />
+                </div>
+                <div class="Achievement_back_face">
+                  <p>
+                    <span>
+                      Heartiest Congratulations to Aniket Mishra (CYS 2nd Year)
+                    </span>
+                    recipient of Summer Research Internship at IIT Delhi 🎓
+                  </p>
+                </div>
               </div>
             </div>
-            <div className='item A2'>
-                <img className="AM" src={YU}/>
-                <div className="A1Text">
-                    {/*<p><span>Heartiest Congratulations to */}
-                    {/*  Aniket Mishra (CYS 2nd Year)</span> */}
-                    {/*  recipient of Summer Research Internship at IIT Delhi 🎓*/}
-                    {/*</p>*/}
+            <div class="Achievement_card">
+              <div class="Achievement_card_inner">
+                <div class="Achievement_front_face">
+                  <img src={BnB} alt="" />
                 </div>
-            </div>
-            <div className="item A2">
-              <img className="GC" src={GC} />
-              <div className="A1Text">
-                {/*<p>*/}
-                {/*  Heartiest Congratulations to ✨ Tejendra Saradhi (II yr CYS), Shraddha Chopra (II yr CYS), Venkatakrishnan (II yr CSE-AI), Sanjai Siddharthan (III yr CSE)*/}
-                {/*</p>*/}
+                <div class="Achievement_back_face">
+                  <p>
+                    <span>Congratulations 🎊</span> to Team Bits' n Bytes for
+                    winning the Caterpillar Code-a-thon! All the teams received
+                    four potential issue statements, and Team Bits' n Bytes
+                    selected Fleet Management System as their problem statement
+                    and won 🎓. We would like to express our gratitude to the
+                    team mentor Dr. Aasha Nandhini, for her unwavering support
+                    and guidance during the Code-a-thon.
+                  </p>
+                </div>
               </div>
             </div>
-            <div className='item A2'>
-                <img className="AM" src={IN}/>
-                <div className="A1Text">
-                    {/*<p><span>Heartiest Congratulations to Aniket */}
-                    {/*  Mishra (CYS 2nd Year)</span> recipient of */}
-                    {/*  Summer Research Internship at IIT Delhi 🎓*/}
-                    {/*</p>*/}
+            <div class="Achievement_card">
+              <div class="Achievement_card_inner">
+                <div class="Achievement_front_face">
+                  <img src={CTF} alt="" />
                 </div>
+                <div class="Achievement_back_face">
+                  <p>
+                    <span>Congratulations 💫 to the team</span> <br />A
+                    heartfelt thanks to Dr. A.G.Sreedevi (Club's Advisor) for
+                    your great support and guidance
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="Achievement_card">
+              <div class="Achievement_card_inner">
+                <div class="Achievement_front_face">
+                  <img src={CYSCL} alt="" />
+                </div>
+                <div class="Achievement_back_face">
+                  <p>
+                    <span class="hil">Congratulations!✨</span>
+                    <br />
+                    Our club president Mr. Sanjay T (CSE 4th Year) was among the
+                    top 15 in a commercial CMS/CRM contest organised by HubSpot.
+                    <br /> <br />
+                    The project: AgroAssist.
+                    <br />
+                    <br />
+                    AgroAssist is a deep learning based crop disease classifier
+                    deployed on the cloud with Heroku powered with ONNX and
+                    PyTorch. The project is made exclusively for diseases of
+                    Apple trees.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="Achievement_card">
+              <div class="Achievement_card_inner">
+                <div class="Achievement_front_face">
+                  <img src={Dmcn} alt="" />
+                </div>
+                <div class="Achievement_back_face">
+                  <p>
+                    <span class="hil">Congratulations!✨</span>
+                    <br />
+                    Our club president Mr. Sanjay T (CSE 4th Year) was among the
+                    top 15 in a commercial CMS/CRM contest organised by HubSpot.
+                    <br /> <br />
+                    The project: AgroAssist.
+                    <br />
+                    <br />
+                    AgroAssist is a deep learning based crop disease classifier
+                    deployed on the cloud with Heroku powered with ONNX and
+                    PyTorch. The project is made exclusively for diseases of
+                    Apple trees.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="Achievement_card">
+              <div class="Achievement_card_inner">
+                <div class="Achievement_front_face">
+                  <img src={GC} alt="" />
+                </div>
+                <div class="Achievement_back_face">
+                  <p>
+                    Heartiest Congratulations to ✨ Tejendra Saradhi (II yr
+                    CYS), Shraddha Chopra (II yr CYS), Venkatakrishnan (II yr
+                    CSE-AI), Sanjai Siddharthan (III yr CSE)
+                  </p>
+                </div>
+              </div>
+            </div>
+            {/* <div class="Achievement_card">
+        <div class="Achievement_card_inner">
+          <div class="Achievement_front_face">
+            <img src="" alt=""/>
+          </div>
+          <div class="Achievement_back_face">
+            <p>
+                <span class="hil">Congratulations!✨</span> 
+                <br/>Our club president Mr. Sanjay T
+                (CSE 4th Year) was among the top 15 in a commercial CMS/CRM
+                contest organised by HubSpot.
+                <br /> <br />
+                The project: AgroAssist.
+                <br />
+                <br />
+                AgroAssist is a deep learning based crop disease classifier
+                deployed on the cloud with Heroku powered with ONNX and
+                PyTorch. The project is made exclusively for diseases of Apple
+                trees.
+            </p>
+          </div>
+        </div>
+      </div> */}
+            <div class="Achievement_card">
+              <div class="Achievement_card_inner">
+                <div class="Achievement_front_face">
+                  <img src={HackArmr} alt="" />
+                </div>
+                <div class="Achievement_back_face">
+                  <p>
+                    <span>
+                      Heartiest Congratulations to Tejendra Saradhi (III yr CYS)
+                      For Getting 1st Position in hackARMOur CTF
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="Achievement_card">
+              <div class="Achievement_card_inner">
+                <div class="Achievement_front_face">
+                  <img src={HTB} alt="" />
+                </div>
+                <div class="Achievement_back_face">
+                  <p>
+                    <span class="hil">Congratulations!✨</span>
+                    <br />
+                    Our club president Mr. Sanjay T (CSE 4th Year) was among the
+                    top 15 in a commercial CMS/CRM contest organised by HubSpot.
+                    <br /> <br />
+                    The project: AgroAssist.
+                    <br />
+                    <br />
+                    AgroAssist is a deep learning based crop disease classifier
+                    deployed on the cloud with Heroku powered with ONNX and
+                    PyTorch. The project is made exclusively for diseases of
+                    Apple trees.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="Achievement_card">
+              <div class="Achievement_card_inner">
+                <div class="Achievement_front_face">
+                  <img src={IN} alt="" />
+                </div>
+                <div class="Achievement_back_face">
+                  <p>
+                    <span class="hil">Congratulations!✨</span>
+                    <br />
+                    Our club president Mr. Sanjay T (CSE 4th Year) was among the
+                    top 15 in a commercial CMS/CRM contest organised by HubSpot.
+                    <br /> <br />
+                    The project: AgroAssist.
+                    <br />
+                    <br />
+                    AgroAssist is a deep learning based crop disease classifier
+                    deployed on the cloud with Heroku powered with ONNX and
+                    PyTorch. The project is made exclusively for diseases of
+                    Apple trees.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="Achievement_card">
+              <div class="Achievement_card_inner">
+                <div class="Achievement_front_face">
+                  <img src={M} alt="" />
+                </div>
+                <div class="Achievement_back_face">
+                  <p>
+                    <span class="hil">Congratulations!✨</span>
+                    <br />
+                    Our club president Mr. Sanjay T (CSE 4th Year) was among the
+                    top 15 in a commercial CMS/CRM contest organised by HubSpot.
+                    <br /> <br />
+                    The project: AgroAssist.
+                    <br />
+                    <br />
+                    AgroAssist is a deep learning based crop disease classifier
+                    deployed on the cloud with Heroku powered with ONNX and
+                    PyTorch. The project is made exclusively for diseases of
+                    Apple trees.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="Achievement_card">
+              <div class="Achievement_card_inner">
+                <div class="Achievement_front_face">
+                  <img src={MC} alt="" />
+                </div>
+                <div class="Achievement_back_face">
+                  <p>
+                    <span class="hil">Congratulations!✨</span>
+                    <br />
+                    Our club president Mr. Sanjay T (CSE 4th Year) was among the
+                    top 15 in a commercial CMS/CRM contest organised by HubSpot.
+                    <br /> <br />
+                    The project: AgroAssist.
+                    <br />
+                    <br />
+                    AgroAssist is a deep learning based crop disease classifier
+                    deployed on the cloud with Heroku powered with ONNX and
+                    PyTorch. The project is made exclusively for diseases of
+                    Apple trees.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="Achievement_card">
+              <div class="Achievement_card_inner">
+                <div class="Achievement_front_face">
+                  <img src={OH} alt="" />
+                </div>
+                <div class="Achievement_back_face">
+                  <p>
+                    <span class="hil">Congratulations!✨</span>
+                    <br />
+                    Our club president Mr. Sanjay T (CSE 4th Year) was among the
+                    top 15 in a commercial CMS/CRM contest organised by HubSpot.
+                    <br /> <br />
+                    The project: AgroAssist.
+                    <br />
+                    <br />
+                    AgroAssist is a deep learning based crop disease classifier
+                    deployed on the cloud with Heroku powered with ONNX and
+                    PyTorch. The project is made exclusively for diseases of
+                    Apple trees.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="Achievement_card">
+              <div class="Achievement_card_inner">
+                <div class="Achievement_front_face">
+                  <img src={S} alt="" />
+                </div>
+                <div class="Achievement_back_face">
+                  <p>
+                    <span>Congratulations!✨</span>Our club president Mr. Sanjay
+                    T (CSE 4th Year) was among the top 15 in a commercial
+                    CMS/CRM contest organised by HubSpot.
+                    <br /> <br />
+                    The project: AgroAssist.
+                    <br />
+                    AgroAssist is a deep learning based crop disease classifier
+                    deployed on the cloud with Heroku powered with ONNX and
+                    PyTorch. The project is made exclusively for diseases of
+                    Apple trees.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="Achievement_card">
+              <div class="Achievement_card_inner">
+                <div class="Achievement_front_face">
+                  <img src={TC} alt="" />
+                </div>
+                <div class="Achievement_back_face">
+                  <p>
+                    Congratulations to Cyber0ids For Securing 40th Pos in
+                    TamilCTF, The Team Members are:
+                    <br /> Dhanvinesh K (III yr CYS) <br /> Aghilan A (III yr
+                    ECE) <br /> Sanjai Siddharthan (IV yr CSE) <br /> Shraddha
+                    Chopra (III yr CYS) <br /> Jyothika Nambiar (III yr CYS)
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="Achievement_card">
+              <div class="Achievement_card_inner">
+                <div class="Achievement_front_face">
+                  <img src={UAWS} alt="" />
+                </div>
+                <div class="Achievement_back_face">
+                  <p>
+                    <center>
+                      Heartiest Congratulations to ✨
+                      <br /> Naresh Kumar B (IV yr CSE)
+                      <br /> Sanjay T (IV yr CSE)
+                      <br /> Aparna J (III yr CSE)
+                    </center>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="Achievement_card">
+              <div class="Achievement_card_inner">
+                <div class="Achievement_front_face">
+                  <img src={Uda} alt="" />
+                </div>
+                <div class="Achievement_back_face">
+                  <p>
+                    <span class="hil">Congratulations!✨</span>
+                    <br />
+                    Our club president Mr. Sanjay T (CSE 4th Year) was among the
+                    top 15 in a commercial CMS/CRM contest organised by HubSpot.
+                    <br /> <br />
+                    The project: AgroAssist.
+                    <br />
+                    <br />
+                    AgroAssist is a deep learning based crop disease classifier
+                    deployed on the cloud with Heroku powered with ONNX and
+                    PyTorch. The project is made exclusively for diseases of
+                    Apple trees.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="Achievement_card">
+              <div class="Achievement_card_inner">
+                <div class="Achievement_front_face">
+                  <img src={WC} alt="" />
+                </div>
+                <div class="Achievement_back_face">
+                  <p>
+                    <span>Congratulations 💫 to the team</span> <br />A
+                    heartfelt thanks to Dr. A.G.Sreedevi (Club's Advisor) for
+                    your great support and guidance
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="Achievement_card">
+              <div class="Achievement_card_inner">
+                <div class="Achievement_front_face">
+                  <img src={winja} alt="" />
+                </div>
+                <div class="Achievement_back_face">
+                  <p>
+                    <span class="hil">Congratulations!✨</span>
+                    <br />
+                    Our club president Mr. Sanjay T (CSE 4th Year) was among the
+                    top 15 in a commercial CMS/CRM contest organised by HubSpot.
+                    <br /> <br />
+                    The project: AgroAssist.
+                    <br />
+                    <br />
+                    AgroAssist is a deep learning based crop disease classifier
+                    deployed on the cloud with Heroku powered with ONNX and
+                    PyTorch. The project is made exclusively for diseases of
+                    Apple trees.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="Achievement_card">
+              <div class="Achievement_card_inner">
+                <div class="Achievement_front_face">
+                  <img src={YU} alt="" />
+                </div>
+                <div class="Achievement_back_face">
+                  <p>
+                    <span class="hil">Congratulations!✨</span>
+                    <br />
+                    Our club president Mr. Sanjay T (CSE 4th Year) was among the
+                    top 15 in a commercial CMS/CRM contest organised by HubSpot.
+                    <br /> <br />
+                    The project: AgroAssist.
+                    <br />
+                    <br />
+                    AgroAssist is a deep learning based crop disease classifier
+                    deployed on the cloud with Heroku powered with ONNX and
+                    PyTorch. The project is made exclusively for diseases of
+                    Apple trees.
+                  </p>
+                </div>
+              </div>
             </div>
           </OwlCarousel>
         </div>
