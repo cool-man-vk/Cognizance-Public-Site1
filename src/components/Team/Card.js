@@ -20,6 +20,7 @@ const Card = (prop) => {
               {prop.name} <br />
               <span>
                 {prop.post} <br />
+                {prop.dom} <br />
               </span>
             </h2>
             <div class="data">
