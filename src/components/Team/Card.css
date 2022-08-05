@@ -1,4 +1,6 @@
 /*------------ CSS OF THE MEMBER CARD ------------*/
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Suez+One&display=swap");
+
 .card {
     position: sticky;
     width: 300px;
@@ -10,6 +12,15 @@
     margin-top: 12em;
     cursor: pointer;
   }
+.description{
+  color: #000 !important;
+  font-family: 'comfortaa', cursive !important;
+  /*font-weight: 700 !important;*/
+}
+.bold{
+    font-weight: 700 !important;
+    font-size: 1.2em !important;
+}
   .card:hover {
     height: 450px;
     transform: translateY(-120px);

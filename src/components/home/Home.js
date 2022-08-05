@@ -208,7 +208,7 @@ function Home() {
 
 
 
-        {/*<Achievement />*/}
+        <Achievement />
         <Footer />
      </>
            

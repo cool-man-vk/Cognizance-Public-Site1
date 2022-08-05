@@ -18,8 +18,10 @@ const Card = (prop) => {
           <div class="details">
             <h2>
               {prop.name} <br />
-              <span>
+              <span className="description" style={{fontWeight:"700",fontSize: "1rem" }}>
                 {prop.post} <br />
+                </span>
+                <span className="description">
                 {prop.dom} <br />
               </span>
             </h2>

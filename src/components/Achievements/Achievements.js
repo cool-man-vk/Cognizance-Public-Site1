@@ -18,7 +18,7 @@ import HackArmr from "../Images/Achievements/HackArmr.png";
 import CYSCL from "../Images/Achievements/CYSCL.png";
 import Uda from "../Images/Achievements/Uda.png";
 import Dmcn from "../Images/Achievements/Dmcn.png";
-import winja from "../Images/Achievements/winja.png";
+// import winja from "../Images/Achievements/winja.png";
 import GC from "../Images/Achievements/GC.png";
 import YU from "../Images/Achievements/YU.png";
 import UAWS from "../Images/Achievements/UAWS.png";
@@ -64,18 +64,10 @@ class Achievements extends Component {
                 </div>
                 <div class="Achievement_back_face">
                   <p>
-                    <span class="hil">Congratulations!✨</span>
+                    <span class="hil">Congratulations!✨ to the team</span>
                     <br />
-                    Our club president Mr. Sanjay T (CSE 4th Year) was among the
-                    top 15 in a commercial CMS/CRM contest organised by HubSpot.
-                    <br /> <br />
-                    The project: AgroAssist.
-                    <br />
-                    <br />
-                    AgroAssist is a deep learning based crop disease classifier
-                    deployed on the cloud with Heroku powered with ONNX and
-                    PyTorch. The project is made exclusively for diseases of
-                    Apple trees.
+                    Project : Genie
+                    A Deep learning powered image credibility checker
                   </p>
                 </div>
               </div>
@@ -87,7 +79,7 @@ class Achievements extends Component {
                 </div>
                 <div class="Achievement_back_face">
                   <p>
-                    <span>
+                    <span class="hil">
                       Heartiest Congratulations to Aniket Mishra (CYS 2nd Year)
                     </span>
                     recipient of Summer Research Internship at IIT Delhi 🎓
@@ -102,13 +94,8 @@ class Achievements extends Component {
                 </div>
                 <div class="Achievement_back_face">
                   <p>
-                    <span>Congratulations 🎊</span> to Team Bits' n Bytes for
-                    winning the Caterpillar Code-a-thon! All the teams received
-                    four potential issue statements, and Team Bits' n Bytes
-                    selected Fleet Management System as their problem statement
-                    and won 🎓. We would like to express our gratitude to the
-                    team mentor Dr. Aasha Nandhini, for her unwavering support
-                    and guidance during the Code-a-thon.
+                    <span class="hil">Congratulations 🎊</span> to Team Bits' n Bytes for winning the Caterpillar Code-a-thon! All the teams received four potential issue statements, and Team Bits' n Bytes selected Fleet Management System as their problem statement and won 🎓.
+                    We would like to express our gratitude to the team mentor Dr. Aasha Nandhini, for her unwavering support and guidance during the Code-a-thon.
                   </p>
                 </div>
               </div>
@@ -120,7 +107,7 @@ class Achievements extends Component {
                 </div>
                 <div class="Achievement_back_face">
                   <p>
-                    <span>Congratulations 💫 to the team</span> <br />A
+                    <span class="hil">Congratulations 💫 to the team</span> <br />A
                     heartfelt thanks to Dr. A.G.Sreedevi (Club's Advisor) for
                     your great support and guidance
                   </p>
@@ -134,18 +121,9 @@ class Achievements extends Component {
                 </div>
                 <div class="Achievement_back_face">
                   <p>
-                    <span class="hil">Congratulations!✨</span>
-                    <br />
-                    Our club president Mr. Sanjay T (CSE 4th Year) was among the
-                    top 15 in a commercial CMS/CRM contest organised by HubSpot.
-                    <br /> <br />
-                    The project: AgroAssist.
-                    <br />
-                    <br />
-                    AgroAssist is a deep learning based crop disease classifier
-                    deployed on the cloud with Heroku powered with ONNX and
-                    PyTorch. The project is made exclusively for diseases of
-                    Apple trees.
+                    <span class="hil">Congratulations 💫 to the team</span> <br />A
+                    heartfelt thanks to Dr. A.G.Sreedevi (Club's Advisor) for
+                    your great support and guidance
                   </p>
                 </div>
               </div>
@@ -157,18 +135,9 @@ class Achievements extends Component {
                 </div>
                 <div class="Achievement_back_face">
                   <p>
-                    <span class="hil">Congratulations!✨</span>
-                    <br />
-                    Our club president Mr. Sanjay T (CSE 4th Year) was among the
-                    top 15 in a commercial CMS/CRM contest organised by HubSpot.
-                    <br /> <br />
-                    The project: AgroAssist.
-                    <br />
-                    <br />
-                    AgroAssist is a deep learning based crop disease classifier
-                    deployed on the cloud with Heroku powered with ONNX and
-                    PyTorch. The project is made exclusively for diseases of
-                    Apple trees.
+                    <span class="hil">Congratulations 💫 to the team</span> <br />A
+                    heartfelt thanks to Dr. A.G.Sreedevi (Club's Advisor) for
+                    your great support and guidance
                   </p>
                 </div>
               </div>
@@ -187,29 +156,6 @@ class Achievements extends Component {
                 </div>
               </div>
             </div>
-            {/* <div class="Achievement_card">
-        <div class="Achievement_card_inner">
-          <div class="Achievement_front_face">
-            <img src="" alt=""/>
-          </div>
-          <div class="Achievement_back_face">
-            <p>
-                <span class="hil">Congratulations!✨</span> 
-                <br/>Our club president Mr. Sanjay T
-                (CSE 4th Year) was among the top 15 in a commercial CMS/CRM
-                contest organised by HubSpot.
-                <br /> <br />
-                The project: AgroAssist.
-                <br />
-                <br />
-                AgroAssist is a deep learning based crop disease classifier
-                deployed on the cloud with Heroku powered with ONNX and
-                PyTorch. The project is made exclusively for diseases of Apple
-                trees.
-            </p>
-          </div>
-        </div>
-      </div> */}
             <div class="Achievement_card">
               <div class="Achievement_card_inner">
                 <div class="Achievement_front_face">
@@ -217,7 +163,7 @@ class Achievements extends Component {
                 </div>
                 <div class="Achievement_back_face">
                   <p>
-                    <span>
+                    <span class="hil">
                       Heartiest Congratulations to Tejendra Saradhi (III yr CYS)
                       For Getting 1st Position in hackARMOur CTF
                     </span>
@@ -232,18 +178,9 @@ class Achievements extends Component {
                 </div>
                 <div class="Achievement_back_face">
                   <p>
-                    <span class="hil">Congratulations!✨</span>
-                    <br />
-                    Our club president Mr. Sanjay T (CSE 4th Year) was among the
-                    top 15 in a commercial CMS/CRM contest organised by HubSpot.
-                    <br /> <br />
-                    The project: AgroAssist.
-                    <br />
-                    <br />
-                    AgroAssist is a deep learning based crop disease classifier
-                    deployed on the cloud with Heroku powered with ONNX and
-                    PyTorch. The project is made exclusively for diseases of
-                    Apple trees.
+                    <span class="hil">Congratulations 💫 to the team</span> <br />A
+                    heartfelt thanks to Dr. A.G.Sreedevi (Club's Advisor) for
+                    your great support and guidance
                   </p>
                 </div>
               </div>
@@ -255,18 +192,9 @@ class Achievements extends Component {
                 </div>
                 <div class="Achievement_back_face">
                   <p>
-                    <span class="hil">Congratulations!✨</span>
-                    <br />
-                    Our club president Mr. Sanjay T (CSE 4th Year) was among the
-                    top 15 in a commercial CMS/CRM contest organised by HubSpot.
-                    <br /> <br />
-                    The project: AgroAssist.
-                    <br />
-                    <br />
-                    AgroAssist is a deep learning based crop disease classifier
-                    deployed on the cloud with Heroku powered with ONNX and
-                    PyTorch. The project is made exclusively for diseases of
-                    Apple trees.
+                    <span class="hil">Congratulations 💫 to the team</span> <br /> TechKrafters
+                    Who Won The 1st Position in the Hackathon.The Team Consists of
+                    Abhinandhan S(III yr CSE), Aparna J(III yr CSE), Shandilyathithyaa Ma(III yr CSE), Yurekan(III yr CSE)
                   </p>
                 </div>
               </div>
@@ -278,18 +206,7 @@ class Achievements extends Component {
                 </div>
                 <div class="Achievement_back_face">
                   <p>
-                    <span class="hil">Congratulations!✨</span>
-                    <br />
-                    Our club president Mr. Sanjay T (CSE 4th Year) was among the
-                    top 15 in a commercial CMS/CRM contest organised by HubSpot.
-                    <br /> <br />
-                    The project: AgroAssist.
-                    <br />
-                    <br />
-                    AgroAssist is a deep learning based crop disease classifier
-                    deployed on the cloud with Heroku powered with ONNX and
-                    PyTorch. The project is made exclusively for diseases of
-                    Apple trees.
+                    <span class="hil">Heartiest Congratulations to Manasa (CSE 4th Year) </span> <br/>for securing the Education Outreach scholarship by GirlScript Foundation 💫
                   </p>
                 </div>
               </div>
@@ -303,16 +220,21 @@ class Achievements extends Component {
                   <p>
                     <span class="hil">Congratulations!✨</span>
                     <br />
-                    Our club president Mr. Sanjay T (CSE 4th Year) was among the
-                    top 15 in a commercial CMS/CRM contest organised by HubSpot.
-                    <br /> <br />
-                    The project: AgroAssist.
-                    <br />
-                    <br />
-                    AgroAssist is a deep learning based crop disease classifier
-                    deployed on the cloud with Heroku powered with ONNX and
-                    PyTorch. The project is made exclusively for diseases of
-                    Apple trees.
+                    Mr. Mukesh K. of Third Year B.Tech CSE(Artificial Intelligence)
+                    has emerged as the winner in the Call for Good Hackathon by
+                    JP Morgan & Chase (May -July 2022).
+                    The selected candidates Through The Coding Competition & Interview
+                    were invited to the hackathon
+                    which consists of a total of 114 teams this year from India.
+                    Mr. MUKESH and Team chose the problem statement
+                    provided by the NGO “Saday Sadev”.
+                    {/*The team came up with a website*/}
+                    {/*where the underprivileged*/}
+                    {/*people could connect with a mental health professional,*/}
+                    {/*book a video appointment, see appointments*/}
+                    {/*on calendar, listen to podcasts*/}
+                    {/*& playlists and buy mental health care*/}
+                    {/*products with support for over 12+ regional languages.*/}
                   </p>
                 </div>
               </div>
@@ -326,16 +248,8 @@ class Achievements extends Component {
                   <p>
                     <span class="hil">Congratulations!✨</span>
                     <br />
-                    Our club president Mr. Sanjay T (CSE 4th Year) was among the
-                    top 15 in a commercial CMS/CRM contest organised by HubSpot.
-                    <br /> <br />
-                    The project: AgroAssist.
-                    <br />
-                    <br />
-                    AgroAssist is a deep learning based crop disease classifier
-                    deployed on the cloud with Heroku powered with ONNX and
-                    PyTorch. The project is made exclusively for diseases of
-                    Apple trees.
+                    To The OctoHacks Winners
+
                   </p>
                 </div>
               </div>
@@ -347,7 +261,7 @@ class Achievements extends Component {
                 </div>
                 <div class="Achievement_back_face">
                   <p>
-                    <span>Congratulations!✨</span>Our club president Mr. Sanjay
+                    <span class="hil">Congratulations!✨</span>Our club president Mr. Sanjay
                     T (CSE 4th Year) was among the top 15 in a commercial
                     CMS/CRM contest organised by HubSpot.
                     <br /> <br />
@@ -368,7 +282,8 @@ class Achievements extends Component {
                 </div>
                 <div class="Achievement_back_face">
                   <p>
-                    Congratulations to Cyber0ids For Securing 40th Pos in
+                    <span className="hil">Congratulations!✨</span>
+                    <br/> to Cyber0ids For Securing 40th Pos in
                     TamilCTF, The Team Members are:
                     <br /> Dhanvinesh K (III yr CYS) <br /> Aghilan A (III yr
                     ECE) <br /> Sanjai Siddharthan (IV yr CSE) <br /> Shraddha
@@ -385,7 +300,8 @@ class Achievements extends Component {
                 <div class="Achievement_back_face">
                   <p>
                     <center>
-                      Heartiest Congratulations to ✨
+                      <span className="hil">Congratulations!✨</span>
+                      <br/> To
                       <br /> Naresh Kumar B (IV yr CSE)
                       <br /> Sanjay T (IV yr CSE)
                       <br /> Aparna J (III yr CSE)
@@ -403,16 +319,14 @@ class Achievements extends Component {
                   <p>
                     <span class="hil">Congratulations!✨</span>
                     <br />
-                    Our club president Mr. Sanjay T (CSE 4th Year) was among the
-                    top 15 in a commercial CMS/CRM contest organised by HubSpot.
+                     For Getting The Udacity-Bertelsmann Scholarship
                     <br /> <br />
-                    The project: AgroAssist.
+                    Naresh Kumar B (III yr CSE)
+
+
                     <br />
-                    <br />
-                    AgroAssist is a deep learning based crop disease classifier
-                    deployed on the cloud with Heroku powered with ONNX and
-                    PyTorch. The project is made exclusively for diseases of
-                    Apple trees.
+
+                    Sanjay T (III yr CSE)
                   </p>
                 </div>
               </div>
@@ -424,32 +338,9 @@ class Achievements extends Component {
                 </div>
                 <div class="Achievement_back_face">
                   <p>
-                    <span>Congratulations 💫 to the team</span> <br />A
+                    <span class="hil">Congratulations 💫 to the team</span> <br />A
                     heartfelt thanks to Dr. A.G.Sreedevi (Club's Advisor) for
                     your great support and guidance
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="Achievement_card">
-              <div class="Achievement_card_inner">
-                <div class="Achievement_front_face">
-                  <img src={winja} alt="" />
-                </div>
-                <div class="Achievement_back_face">
-                  <p>
-                    <span class="hil">Congratulations!✨</span>
-                    <br />
-                    Our club president Mr. Sanjay T (CSE 4th Year) was among the
-                    top 15 in a commercial CMS/CRM contest organised by HubSpot.
-                    <br /> <br />
-                    The project: AgroAssist.
-                    <br />
-                    <br />
-                    AgroAssist is a deep learning based crop disease classifier
-                    deployed on the cloud with Heroku powered with ONNX and
-                    PyTorch. The project is made exclusively for diseases of
-                    Apple trees.
                   </p>
                 </div>
               </div>
@@ -461,18 +352,12 @@ class Achievements extends Component {
                 </div>
                 <div class="Achievement_back_face">
                   <p>
-                    <span class="hil">Congratulations!✨</span>
+                    <span class="hil">Congratulations!✨ to the Runner ups!</span>
                     <br />
-                    Our club president Mr. Sanjay T (CSE 4th Year) was among the
-                    top 15 in a commercial CMS/CRM contest organised by HubSpot.
-                    <br /> <br />
-                    The project: AgroAssist.
+                    Sanjay T (IV yr CSE)
                     <br />
-                    <br />
-                    AgroAssist is a deep learning based crop disease classifier
-                    deployed on the cloud with Heroku powered with ONNX and
-                    PyTorch. The project is made exclusively for diseases of
-                    Apple trees.
+                    Jayanth Vikash S (IV yr CSE)
+
                   </p>
                 </div>
               </div>
