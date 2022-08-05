@@ -46,7 +46,7 @@ class Achievements extends Component {
     return (
       <>
 
-        <div className="AchievementsContainer">
+        <div className="AchievementsContainer" id="Achievements">
           <h2 className="titleac">ACHIEVEMENTS</h2>
           <OwlCarousel
             className="owl-theme"
