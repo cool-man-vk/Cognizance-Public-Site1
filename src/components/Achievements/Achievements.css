@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,300;0,400;0,700;0,900;1,400;1,500;1,600;1,800;1,900&family=Faustina:ital,wght@0,300;0,400;0,600;0,700;1,500&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;1,8..60,300&display=swap");
 .carousel_____container {
   width: auto !important;
 }
@@ -12,146 +13,95 @@
   overflow: hidden;
   justify-content: center;
   align-items: center;
-  /*display: grid;*/
 }
-.titleac{
+.owl-theme {
+  padding: 5rem;
+}
+.titleac {
   /*font-family: 'Righteous', cursive;*/
-    font-size: 2.5rem;
-    font-weight: 700    !important;
-    color: #000000;
-    text-align: center;
-    margin-top: 2rem;
-}
-.A1 {
-  background: rgba(255, 255, 255, 0.1);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  border-radius: 10px;
-  width: 100%;
-  height: 100%;
-  padding: 20px;
-  margin:auto !important;
-  display: block;
-}
-
-.A2 {
-  background: rgba(255, 255, 255, 0.1);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  border-radius: 10px;
-  width: auto;
-  height: auto;
-  padding: 20px 20px 10% 20px;
-  margin: 20px;
-  display: block;
-}
-.A3 {
-  background: rgba(255, 255, 255, 0.1);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  border-radius: 10px;
-  width: 100%;
-  height: 130%;
-  padding: 20px 20px 29% 20px;
-  margin: 20px;
-  display: block;
-  justify-content: center;
-  align-items: center;
-}
-.A4 {
-  background: rgba(255, 255, 255, 0.1);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  border-radius: 10px;
-  width: 100%;
-  height: 130%;
-  padding: 20px 20px 10% 20px;
-  margin: 20px;
-  display: block;
-}
-.BnB {
-  width: 80% !important;
-  height: 80%;
-  display: block !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-}
-
-.S {
-  width: 54% !important;
-  height: 60%;
-  display: block !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-}
-
-.M {
-  width: 80% !important;
-  height: 100%;
-  display: block !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-}
-
-.OH {
-  width: 100% !important;
-  height: 100%;
-  display: block !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-}
-
-.A1Text {
-  justify-content: center;
-  align-items: center;
-  display: block;
-}
-.A3Text {
-  justify-content: center;
-  align-items: center;
-  display: block;
-  margin-top: 20px;
-}
-.A2Text {
-  justify-content: center;
-  align-items: center;
-  display: block;
-}
-
-.A1Text p {
+  font-size: 2.5rem;
+  font-weight: 700 !important;
+  color: #000000;
+  text-align: center;
   margin-top: 2rem;
-  font-weight: bold;
-  text-align: justify;
-  margin-bottom: 0;
 }
 
-.TC {
-  width: 50%;
-  height: 59vh;
-  display: block;
-  margin-left: auto !important;
-  margin-right: auto !important;
+.Achievement_card {
+  width: 330px;
+  height: 380px;
+  /* perspective: 1000px; */
 }
 
-.WI {
-  height: auto !important;
-  /*width: auto !important;*/
+.Achievement_card_inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.GC {
-  height: auto !important;
-  /*width: auto !important;*/
+.Achievement_card:hover .Achievement_back_face {
+  transform: rotateY(0deg);
 }
 
-.AM {
-  height: auto;
+.Achievement_front_face,
+.Achievement_back_face {
+  position: absolute;
+  width: 330px;
+  height: 380px;
+  border-radius: 1rem;
+  background: rgba(2, 0, 74, 0.75);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  backface-visibility: hidden;
+}
+.Achievement_front_face img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1.4rem;
+  padding: 1rem;
 }
 
-.TC {
-  height: auto;
-  width: auto !important;
+.Achievement_back_face {
+  display: flex;
+  align-items: center;
+  padding: 2.2rem;
+  transform: rotateY(180deg);
+}
+
+.Achievement_back_face p {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  color: #fff;
+  flex-direction: column;
+  font-size: 0.9rem;
+  font-family: "Faustina", serif;
+}
+span {
+  text-align: center;
+  color: tomato;
+  font-size: 1.2rem;
+  font-family: "Faustina", serif;
+  padding-bottom: 8px;
+}
+@media screen and (max-width: 1200px) {
+  .owl-theme {
+    padding: 3rem;
+  }
+}
+@media screen and (max-width: 650px) {
+  .owl-theme {
+    padding: 3rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .owl-theme {
+    padding: 1rem;
+  }
 }
