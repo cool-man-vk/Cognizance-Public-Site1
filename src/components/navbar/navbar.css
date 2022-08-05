@@ -177,7 +177,7 @@ nav li a:hover::after{
  
   header{
     margin-bottom: 5vh;
-    position: fixed;
+    /*position: fixed;*/
     display: flex;
     justify-content: space-between;
     align-items: center;
