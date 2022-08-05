@@ -127,8 +127,11 @@ nav li a:hover::after{
     visibility: visible;
     opacity: 1;
   }
-  .logo{
-    margin-left: 2rem;
+  .Logo{
+    height: 43px;
+  }
+  .clogo{
+    margin-left: 0.7rem;
   }
   nav{
     position: fixed;
