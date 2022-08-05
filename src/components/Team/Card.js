@@ -10,11 +10,11 @@ import instagram from "../Images/Logo/instagram.png";
 const Card = (prop) => {
   return (
     <>
-      <div class="card">
-        <div class="imgbox">
+      <div className="card">
+        <div className="imgbox">
           <img src={prop.src} alt="" />
         </div>
-        <div class="content">
+        <div className="content">
           <div class="details">
             <h2>
               {prop.name} <br />
@@ -23,26 +23,26 @@ const Card = (prop) => {
                 {prop.dom} <br />
               </span>
             </h2>
-            <div class="data">
+            <div className="data">
               <p>{prop.desc}</p>
-              <div class="Media_icons">
+              <div className="Media_icons">
                 <ul>
-                  <li class="icon Gmail">
+                  <li className="Icon Gmail">
                     <a href={prop.mail} target="_blank">
                       <SiGmail />
                     </a>
                   </li>
-                  <li class="icon linkedin">
+                  <li className="Icon linkedin">
                     <a href={prop.linkedIn} target="_blank">
                       <img src={linkedin} alt="https://www.linkedin.com" />
                     </a>
                   </li>
-                  <li class="icon Github">
+                  <li className="Icon Github">
                     <a href={prop.gitHub} target="_blank">
                       <img src={github} alt="https://www.github.com" />
                     </a>
                   </li>
-                  <li class="icon Website">
+                  <li className="Icon Website">
                     <a href={prop.instagram} target="_blank">
                       <img src={instagram} alt="https://www.instagram.com" />
                     </a>
