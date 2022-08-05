@@ -67,40 +67,41 @@ function Home() {
         <div className="main-con">
 
 
-
-            <div className="row1">
-                <div className="cell-1">
-                <img className="grp" src={group} />               
+        <div className="row1">
+            <div class="cf">
+                <div class="cf-img">
+                    <img className="grp" src={group} />
                 </div>
-                <div className="cell-2">
-                    <p className='club-hd'>Club Formation</p>
+                <div class="cf-info">
+                    <h1 class="btitle">Club Formation</h1>   
+                    <p class="blog-text">
+                        Our distinguished institution's illustrious history dates back to its first year, when we had our modest beginnings with a peer learning effort to 
+                        assist students who were ignorant of the technical contests and industrial skills competitions that are held on a national and worldwide level. 
+                        For them, it was a big step to immediately begin programming and developing.
+                    </p>   
                     <br/>
-                    <p className="club-info">
-                    Our distinguished institution's illustrious history dates back to its first year, when we had our modest beginnings with a peer learning effort to 
-                    assist students who were ignorant of the technical contests and industrial skills competitions that are held on a national and worldwide level. 
-                    For them, it was a big step to immediately begin programming and developing.
-                    <p/>
-                    <br/>
-                    <p className="club-info"></p>
-                    By encouraging individuals to study and keep up with modern technologies, Dr. A. G. Sreedevi and Mr. Sanjay T launched this modest project,
-                    and presently we have more than 100 participations annually. In contrast to the initial batch of cognizance, which consisted of about 10 individuals,
-                    there are now more than 250 individuals working in three distinct fields.
-
-                    </p>
+                    <p class="blog-text">
+                        By encouraging individuals to study and keep up with modern technologies, Dr. A. G. Sreedevi and Mr. Sanjay T launched this modest project,
+                        and presently we have more than 100 participations annually. In contrast to the initial batch of cognizance, which consisted of about 10 individuals,
+                        there are now more than 250 individuals working in three distinct fields.
+                    </p>   
                 </div>
             </div>
-            <div className="row2">
-                <div className="cell-3">
-                <p className='mis'>Mission</p>
+        </div>
+        <div className="row2">
+            <div class="mv">
+                <div class="mv-img">
+                    <p className='astro'> {View} </p>
+                </div>
+                <div class="mv-info">
+                    <h1 class="btitle">Mission</h1>   
+                    <p>
+                        To provide a supportive environment to instill the passion about computer science and to provide needed skills, confidence, and opportunity to change 
+                        their world by becoming effective problem-solvers and lifelong learners. 
+                    </p>   
                     <br/>
-                    <p className="mis-info">
-                    To provide a supportive environment to instill the passion about computer science and to provide needed skills, confidence, and opportunity to change 
-                    their world by becoming effective problem-solvers and lifelong learners. 
-                    </p>
-                    <br/>
-                    <p className='vis'>Vision</p>
-                    <br/>
-                    <p className="vis-info">
+                    <h1 class="btitle">Vision</h1>   
+                    <p>
                         <ul>
                             <li>
                                 To impart high quality professional training with an emphasis on current trends of Computer Science and Technology.
@@ -117,36 +118,34 @@ function Home() {
                             <li>
                                 To organize various technical events and workshops to train the members to work on open-source projects and research activities.
                             </li>
-                        </ul>
-                    </p>
+                        </ul> 
+                    </p>    
                 </div>
-                <div className="cell-4">
-                   <p className='astro'> {View} </p>
-                </div>
-                
             </div>
-            <div className="row3">
-                <div className="cell-5">
+        </div>
+        <div className="row3">
+            <div class="go_obj">
+                <div class="go_obj-img">
                     <img className="go" src={goal} />
                 </div>
-                <div className="cell-6">
-                    <p className='go_obj'>Goals & Objectives</p>
+                <div class="go_obj-info">
+                    <h1 class="btitle">Goals & Objectives</h1>   
+                    <p class="blog-text">
+                        The club is open to all students who have a passion for or interest in coding. This club provides a collaborative learning environment that promotes
+                        the self-learning mindset in the members thereby motivating them to actively participating in competitions like Hackathons, Catch the Flag (CTF), 
+                        Open-source projects, and internships.
+                    </p>   
                     <br/>
-                    <p className="goal-info">
-                    The club is open to all students who have a passion for or interest in coding. This club provides a collaborative learning environment that promotes
-                    the self-learning mindset in the members thereby motivating them to actively participating in competitions like Hackathons, Catch the Flag (CTF), 
-                    Open-source projects, and internships.
-                    </p>
-                    <br/>
-                    <p className="obj-info">
-                    The clubs strives to encourage the habit of extensive learning in the minds of students, organize various technical events and workshops to help 
-                    the members of the club to get used to the competitions held at industry-standards. We regularly work on projects focused on social good, thereby 
-                    encouraging the members to contribute to open-source projects which in turn provides them wonderful experience in working on such industrial projects.
-                    We also assist the members in taking their initial step toward entering challenging events like hackathons and capture the flag (CTF) tournaments.
-                    </p>
+                    <p class="blog-text">
+                        The clubs strives to encourage the habit of extensive learning in the minds of students, organize various technical events and workshops to help 
+                        the members of the club to get used to the competitions held at industry-standards. We regularly work on projects focused on social good, thereby 
+                        encouraging the members to contribute to open-source projects which in turn provides them wonderful experience in working on such industrial projects.
+                        We also assist the members in taking their initial step toward entering challenging events like hackathons and capture the flag (CTF) tournaments.
+                    </p>   
                 </div>
-                
             </div>
+        </div>
+                
         </div>
         <Achievement />
         <Footer />
