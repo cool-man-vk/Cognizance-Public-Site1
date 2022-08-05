@@ -3,7 +3,7 @@ import Card from "./Card.js";
 import "./Team.css";
 import img1 from "../Images/DisplayPics/1.jpg";
 import img2 from "../Images/DisplayPics/2.jpg";
-import img3 from "../Images/DisplayPics/3.jpg";
+// import img3 from "../Images/DisplayPics/3.jpg";
 import img4 from "../Images/DisplayPics/4.jpg";
 // import img5 from "../Images/DisplayPics/5.jpg";
 import img6 from "../Images/DisplayPics/6.jpg";
@@ -66,22 +66,22 @@ const Team = () => {
       linkIn: "https://www.linkedin.com/in/dr-veeramani-sonai-77813028/",
       // insta: "",
     },
-    {
-      id: 3,
-      src: img3,
-      name: "Dr. M. Chandralekha",
-      post: "Artificial Intelligence  Advisor",
-      desc: "Dr. M. Chandralekha currently serves as the Assistant Professor, in the Department of Computer Science and Engineering, Amrita School of Computing. Her areas of research include Information Retrieval, Data Mining, Machine Learning, Data Science and Data analytics. She has published papers in international journals and at conferences where she has won several Best Paper Awards.She has been granted a patent entitled “A decision support system for disease prediction and methods thereof” under Controller General of Patents, Designs & Trademarks, India.",
-      mail: "m_chandralekha@ch.amrita.edu\n",
-      // gitHub: "",
-      linkIn: "https://www.linkedin.com/in/dr-chandralekha-mohan-30498768/",
-      // insta: "",
-    },
+    // {
+    //   id: 3,
+    //   src: img3,
+    //   name: "Dr. M. Chandralekha",
+    //   post: "Artificial Intelligence  Advisor",
+    //   desc: "Dr. M. Chandralekha currently serves as the Assistant Professor, in the Department of Computer Science and Engineering, Amrita School of Computing. Her areas of research include Information Retrieval, Data Mining, Machine Learning, Data Science and Data analytics. She has published papers in international journals and at conferences where she has won several Best Paper Awards.She has been granted a patent entitled “A decision support system for disease prediction and methods thereof” under Controller General of Patents, Designs & Trademarks, India.",
+    //   mail: "m_chandralekha@ch.amrita.edu\n",
+    //   // gitHub: "",
+    //   linkIn: "https://www.linkedin.com/in/dr-chandralekha-mohan-30498768/",
+    //   // insta: "",
+    // },
     {
       id: 4,
       src: img4,
       name: "Sanjay T",
-      post: "Alumni",
+      post: "Alumni | Ex-President",
       desc: "",
       mail: "",
       gitHub: "",
@@ -95,7 +95,7 @@ const Team = () => {
       post: "Alumni",
       dom: "Open Source",
       // desc: "One of the co-ordinators of Open Source domain. Organizing and coordinating guest lectures, workshops, and hands-on sessions on cutting-edge Open Source technologies. Freshmen are given training in various competitions such as Hackathons and other Open Source competitions. Cross-platform development is something that has attracted me to Open Source.",
-      mail: "pranavanmuraligai@gmail.com",
+      mail: "mailto:pranavanmuraligai@gmail.com",
       gitHub: "https://github.com/Techipeeyon",
       linkIn: "https://www.linkedin.com/in/vadivelu-murali-pranavan-1b82551b3/",
       insta: "",
@@ -115,7 +115,7 @@ const Team = () => {
     {
       id: 7,
       src: img9,
-      name: "Sidharth",
+      name: "Sanjai Siddharthan M",
       post: "Alumni",
       dom: "",
       desc: "",
@@ -178,7 +178,7 @@ const Team = () => {
       name: "Abhishek",
       post: "Alumni",
       dom: "",
-      desc: "",
+      desc: "I've been part of cognizance since the discussion of the club had started. This club is close to my heart as I started with the basics of LINUX and now I'm actually into the domain of OSINT, Digital Forensics and Ethical Hacking. And I would like to contribute more to the CYS domain.",
       mail: "",
       gitHub: "",
       linkIn: "",
@@ -226,7 +226,7 @@ const Team = () => {
       name: "Tejendra Saradhi",
       post: "Co-ordinator",
       dom: "Cybersecurity",
-      desc: "Cybersecurity Coordinator. I have been actively helping my peers to gain knowledge in various domains in Cybersecurity. ",
+      desc: "I am Cybersecurity Coordinator. I have been actively helping my peers to gain knowledge in various domains in Cybersecurity. I'm ranked Elite in Hack The Box and also Hack The Box discord server moderator. I take part in CTFs often, and part of team Cyber0ids formerly ParallelFlags. I work in various cybersecurity fields - Web Exploitation, Digital Forensics (Memory Forensics), Penetration Testing (Black Box, Cloud - Azure, Active Directory). Do check my blogs.",
       mail: "",
       gitHub: "https://github.com/tejas15802",
       linkIn: "https://www.linkedin.com/in/tejendra-saradhi/",
@@ -250,7 +250,16 @@ const Team = () => {
       name: "Dhanvinesh K",
       post: "Co-ordinator",
       dom: "Open Source",
-      desc: "I am Dhanvinesh pursuing BTech Computer Science with Cybersecurity specialization (3rd year). I am one of the mentors of Cybersecurity domain and also a member of Opensource. I have experience in UI design and I am a Full-stack developer. I've experience in working with frameworks like Django, Vue, Flask, Firebase and some more frameworks. I've experience in Web exploitation, Forensics, Networking, OSINT and some Cryptography and Penetration testing.",
+      desc: "I am Dhanvinesh pursuing BTech Computer Science with Cybersecurity " +
+          "specialization (3rd year). I am one of the Co-ordinators of CYS domain " +
+          "and also a member of Opensource. I have experience in UI design and " +
+          "I am a backend developer. I've experience in working with frameworks " +
+          "like Django, Vue, Flask, Firebase and some more frameworks which " +
+          "helped me participating in some hackathons and related workshops. " +
+          "I have been participating in a lot of CTFs and related conferences " +
+          "for the past two years. I've experience in Web exploitation, " +
+          "Forensics, Networking, OSINT and some Cryptography and " +
+          "Penetration testing.",
       mail: "dhanvineshk2003@gmail.com",
       gitHub: "https://github.com/Reaper-Dhan",
       linkIn: "https://www.linkedin.com/in/reaperdhan",
@@ -393,7 +402,7 @@ const Team = () => {
     {
       id: 28,
       src: img25,
-      name: "Yellapragada Charan Krish",
+      name: "Y Charan Krishna",
       post: "Mentor",
       dom: "",
       desc: "",
@@ -445,7 +454,7 @@ const Team = () => {
       name: "priyanka saraf",
       post: "Jr. Co-ordinator",
       dom: "Open Source",
-      desc: "I'm a constant-fast-paced learner who believes in teamwork and keen to work in team. My current domain of work is Open Source.",
+      desc: "I am Priyanka Saraf from CSE, who is always excited to work and learn new things. I am into Open source Domain. This domain match my interest and helps me to explore new things and learn exciting things. I enjoy the participation into open mic session which is organized in cognizance  as it helps me to grab technical and non technical aspects of world. Before joining to the club, I was knowing not much about technology and programming but this club provided me the platform to learn and explore so many things in tech.a",
       mail: "paritoshj2001@gmail.com",
       gitHub: "https://github.com/Paritosh-J",
       linkIn: "https://www.linkedin.com/in/paritosh-j",
@@ -457,7 +466,7 @@ const Team = () => {
       name: "Siddhant Kundargi",
       post: "Jr. Co-ordinator",
       dom: "Open Source",
-      desc: "I'm a constant-fast-paced learner who believes in teamwork and keen to work in team. My current domain of work is Open Source.",
+      desc: "Driven by SHEER curiosity and Impatience, with god gifted energy and enthusiasm I like to get people involved. Involved to a point that they no more need me to keep them going deeper. I am a part of the CyberSec and Open Source branch of Cognizance, and with passion I enjoy and will make you enjoy everything there is that we learn through this club",
       mail: "paritoshj2001@gmail.com",
       gitHub: "https://github.com/Paritosh-J",
       linkIn: "https://www.linkedin.com/in/paritosh-j",
@@ -469,7 +478,7 @@ const Team = () => {
       name: "Viswanathan",
       post: "Jr. Co-ordinator",
       dom: "Open Source",
-      desc: "I'm a constant-fast-paced learner who believes in teamwork and keen to work in team. My current domain of work is Open Source.",
+      desc: "Hi, I'm Viswanathan, Coordinator and mentor of the Artificial Intelligence domain in Cognizance. I'm studying Btech Computer Science (Artificial Intelligence specialization). I'm a very fun and curious person and I like to explore the field of computer science far and wide ! I'm passionate about ML, automations, NLP and game development.",
       mail: "paritoshj2001@gmail.com",
       gitHub: "https://github.com/Paritosh-J",
       linkIn: "https://www.linkedin.com/in/paritosh-j",

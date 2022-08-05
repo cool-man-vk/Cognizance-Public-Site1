@@ -27,7 +27,7 @@ const Card = (prop) => {
               <div class="Media_icons">
                 <ul>
                   <li class="icon Gmail">
-                    <a href="mailto:{prop.mail}" target="_blank">
+                    <a href={prop.mail} target="_blank">
                       <SiGmail />
                     </a>
                   </li>
