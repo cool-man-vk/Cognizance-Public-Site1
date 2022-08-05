@@ -40,7 +40,7 @@ class Achievements extends Component {
       990: {
         items: 3
       },
-      1200: {
+      1320: {
         items: 4
       }
     }
