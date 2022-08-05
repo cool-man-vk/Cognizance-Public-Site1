@@ -141,11 +141,15 @@ nav li a:hover::after{
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
-    background-color: rgba(255, 153, 0, 0.961);
+    background-color: rgba(35, 25, 85, 0.8);
     transition: 1s;
     transform: translateY(-110vh);
     margin-top: 0rem;
     padding-left: 0px;
+    z-index: 1000;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.6);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
   }
   nav li{
     margin-left: 0;
