@@ -22,7 +22,7 @@ const Navbar = () => {
                     </li>
         
                     <li>
-                        <a href="/Team"> The Team </a>
+                        <a href="/team"> The Team </a>
                     </li>
         
                     {/*<li>*/}
@@ -30,7 +30,7 @@ const Navbar = () => {
                     {/*</li>*/}
         
                     <li>
-                        <a href="/Gallery"> Gallery </a>
+                        <a href="/gallery"> Gallery </a>
                     </li>
                     <li>
                         <a href="https://preliminary.cognizance-amrita.in/" target="_blank" rel="noreferrer"> Preliminary Tasks </a>
