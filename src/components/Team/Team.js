@@ -3,9 +3,8 @@ import Card from "./Card.js";
 import "./Team.css";
 import img1 from "../Images/DisplayPics/1.jpg";
 import img2 from "../Images/DisplayPics/2.jpg";
-// import img3 from "../Images/DisplayPics/3.jpg";
 import img4 from "../Images/DisplayPics/4.jpg";
-// import img5 from "../Images/DisplayPics/5.jpg";
+import img5 from "../Images/DisplayPics/5.JPG";
 import img6 from "../Images/DisplayPics/6.jpg";
 import img7 from "../Images/DisplayPics/7.jpg";
 import img8 from "../Images/DisplayPics/8.jpg";
@@ -82,7 +81,7 @@ const Team = () => {
     },
     {
       id: 5,
-      // src: img5,
+      src: img5,
       name: "V M Pranavan",
       post: "Alumni",
       dom: "Open Source Domain",
