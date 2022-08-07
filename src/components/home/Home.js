@@ -1,21 +1,16 @@
-import React, { Component } from 'react';
-import Rive, { useRive, useStateMachineInput } from 'rive-react';
+import React from 'react';
+import { useRive, useStateMachineInput } from 'rive-react';
 import './home.css';
 import mail from '../Images/Logo/mail.png';
 import instagram from '../Images/Logo/instagram.png';
 import github from '../Images/Logo/github.png';
 import linkedin from '../Images/Logo/linkedin.png';
-// import globe from '../Images/globe.png';
-import group from '../Images/Illustrations/Club Formation.png';
 import mv from '../Images/Illustrations/sp.json';
-import goal from '../Images/Illustrations/Goals.png';
-import {Link} from 'react-router-dom';
 import Navbar from '../navbar/Navbar';
 import Footer from '../Footer/Footer';
 import robo from '../Images/Illustrations/RiveRobot.riv';
 import { useLottie } from "lottie-react";
 import Achievement from '../Achievements/Achievements';
-import { BsBell } from 'react-icons/bs';
 import {AiFillPushpin} from 'react-icons/ai';
 import {BsChatQuoteFill} from 'react-icons/bs';
 import {GoBeaker} from 'react-icons/go';
@@ -61,16 +56,16 @@ function Home() {
 
         <div className="SMediaGroup">
             <div className="Smedia1">
-                <a href="mailto:contact@cognizance-amrita.in" target="_blank"><img className="mail icon" src={mail} /></a>
+                <a href="mailto:contact@cognizance-amrita.in" target="_blank" rel="noreferrer"><img className="mail icon" src={mail} alt=""/></a>
             </div>
             <div className="Smedia1">
-                <a href="https://www.instagram.com/cognizance.amrita" target="_blank"><img className="instagram icon" src={instagram} /></a>
+                <a href="https://www.instagram.com/cognizance.amrita" target="_blank" rel="noreferrer"><img className="instagram icon" src={instagram} alt=""/></a>
             </div>
             <div className="Smedia1">
-                <a href="https://github.com/cognizance-amrita" target="_blank"><img className="github icon" src={github} /></a>
+                <a href="https://github.com/cognizance-amrita" target="_blank" rel="noreferrer"><img className="github icon" src={github} alt=""/></a>
             </div>
             <div className="Smedia1">
-                <a href="https://www.linkedin.com/company/cognizance-amrita/" target="_blank"><img className="linkedin icon" src={linkedin} /></a>
+                <a href="https://www.linkedin.com/company/cognizance-amrita/" target="_blank" rel="noreferrer"><img className="linkedin icon" src={linkedin} alt=""/></a>
             </div>
         </div>
 

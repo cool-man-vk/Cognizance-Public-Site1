@@ -30,22 +30,22 @@ const Card = (prop) => {
               <div className="Media_icons">
                 <ul>
                   <li className="Icon Gmail">
-                    <a href={prop.mail} target="_blank">
+                    <a href={prop.mail} target="_blank" rel="noreferrer">
                       <SiGmail />
                     </a>
                   </li>
                   <li className="Icon linkedin">
-                    <a href={prop.linkedIn} target="_blank">
+                    <a href={prop.linkedIn} target="_blank" rel="noreferrer">
                       <img src={linkedin} alt="https://www.linkedin.com" />
                     </a>
                   </li>
                   <li className="Icon Github">
-                    <a href={prop.gitHub} target="_blank">
+                    <a href={prop.gitHub} target="_blank" rel="noreferrer">
                       <img src={github} alt="https://www.github.com" />
                     </a>
                   </li>
                   <li className="Icon Website">
-                    <a href={prop.instagram} target="_blank">
+                    <a href={prop.instagram} target="_blank" rel="noreferrer">
                       <img src={instagram} alt="https://www.instagram.com" />
                     </a>
                   </li>

@@ -1,8 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './navbar.css';
 import logo from '../Images/Logo/logo.png';
 import { FaBars, FaTimes } from "react-icons/fa";
-import {Link} from 'react-router-dom';
 
 const Navbar = () => {
     const navRef = React.useRef();
@@ -34,7 +33,7 @@ const Navbar = () => {
                         <a href="/Gallery"> Gallery </a>
                     </li>
                     <li>
-                        <a href="https://preliminary.cognizance-amrita.in/"> Preliminary Tasks </a>
+                        <a href="https://preliminary.cognizance-amrita.in/" target="_blank" rel="noreferrer"> Preliminary Tasks </a>
                     </li>
                     
                     <button className="nav_btn nav_close" onClick={handleClick}>
@@ -45,7 +44,7 @@ const Navbar = () => {
                     <FaBars />
                 </button>
                 <div className="apply-B">
-                    <a className="B third" href="https://forms.gle/R6tD43pkSjMKpzPk7" target="_blank">Apply</a>
+                    <a className="B third" href="https://forms.gle/R6tD43pkSjMKpzPk7" target="_blank" rel="noreferrer">Apply</a>
                 </div>
                     
                 
