@@ -40,7 +40,7 @@ function Home() {
         loop: true,
       };
     
-    // const { View } = useLottie(options);
+    useLottie(options);
     return( 
             <>
             <Navbar />
