@@ -14,29 +14,30 @@ const Footer = () => {
 
         <div className="FMediaGroup">
           <div className="Fmedia1">
-            <a href="mailto:contact@cognizance-amrita.in" target="_blank">
-              <img className="fmail icon" src={fmail} />
+            <a href="mailto:contact@cognizance-amrita.in" target="_blank" rel="noreferrer">
+              <img className="fmail icon" src={fmail} alt="mail"/>
             </a>
           </div>
           <div className="Fmedia1">
             <a
               href="https://www.instagram.com/cognizance.amrita"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
-              <img className="finstagram icon" src={finstagram} />
+              <img className="finstagram icon" src={finstagram} alt="instagram"/>
             </a>
           </div>
           <div className="Fmedia1">
-            <a href="https://github.com/cognizance-amrita" target="_blank">
-              <img className="fgithub icon" src={fgithub} />
+            <a href="https://github.com/cognizance-amrita" target="_blank" rel="noreferrer">
+              <img className="fgithub icon" src={fgithub} alt="github"/>
             </a>
           </div>
           <div className="Fmedia1">
             <a
               href="https://www.linkedin.com/company/cognizance-amrita/"
               target="_blank"
+                rel="noreferrer"
             >
-              <img className="flinkedin icon" src={flinkedin} />
+              <img className="flinkedin icon" src={flinkedin} alt="linkedin"/>
             </a>
           </div>
         </div>

@@ -26,15 +26,15 @@ const Navbar = () => {
                         <a href="/Team"> The Team </a>
                     </li>
         
-                    <li>
-                        <a href="/#Achievements"> Achievements </a>
-                    </li>
+                    {/*<li>*/}
+                    {/*    <a href="/#Achievements"> Achievements </a>*/}
+                    {/*</li>*/}
         
                     <li>
                         <a href="/Gallery"> Gallery </a>
                     </li>
                     <li>
-                        <a href="https://preliminary.cognizance-amrita.in/"> Tasks </a>
+                        <a href="https://preliminary.cognizance-amrita.in/"> Preliminary Tasks </a>
                     </li>
                     
                     <button className="nav_btn nav_close" onClick={handleClick}>

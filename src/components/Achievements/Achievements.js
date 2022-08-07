@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./Achievements.css";
-import Navbar from "../navbar/Navbar";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
