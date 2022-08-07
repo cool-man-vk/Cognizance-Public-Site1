@@ -142,7 +142,7 @@ function Home() {
                                     <div className="info">
                                         <div className="row4">
                                             <div className="column">
-                                                <img src={OS} className="OS"/>
+                                                <img src={OS} className="OS" alt=""/>
                                             </div>
                                             <div className="column">
                                                 <h5 className="infotxt">Open Source</h5>
@@ -172,7 +172,7 @@ function Home() {
                                                 </p>
                                             </div>
                                             <div className="column">
-                                                <img src={CYS} className="OS"/>
+                                                <img src={CYS} className="OS" alt=""/>
                                             </div>
                                         </div>
                                     </div>
@@ -183,7 +183,7 @@ function Home() {
                                     <div className="info">
                                         <div className="row4">
                                             <div className="column">
-                                                <img src={ML} className="OS"/>
+                                                <img src={ML} className="OS" alt=""/>
                                             </div>
                                             <div className="column">
                                                 <h5 className="infotxt">Artificial Intelligence</h5>
