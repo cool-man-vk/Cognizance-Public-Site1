@@ -33,7 +33,7 @@ const Navbar = () => {
                         <a href="/gallery"> Gallery </a>
                     </li>
                     <li>
-                        <a href="https://preliminary.cognizance-amrita.in/" target="_blank" rel="noreferrer"> Preliminary Tasks </a>
+                        <a href="https://preliminary-tasks.cognizance-amrita.in/" target="_blank" rel="noreferrer"> Preliminary Tasks </a>
                     </li>
                     
                     <button className="nav_btn nav_close" onClick={handleClick}>
