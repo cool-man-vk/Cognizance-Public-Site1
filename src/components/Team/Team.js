@@ -34,7 +34,7 @@ import img31 from "../Images/DisplayPics/31.jpg";
 import img32 from "../Images/DisplayPics/32.jpg";
 import img33 from "../Images/DisplayPics/33.jpg";
 import img34 from "../Images/DisplayPics/34.jpeg";
-import img35 from "../Images/DisplayPics/35.jpg";
+// import img35 from "../Images/DisplayPics/35.jpg";
 import img36 from "../Images/DisplayPics/36.jpg";
 import img37 from "../Images/DisplayPics/37.jpg";
 import img38 from "../Images/DisplayPics/38.jpg";
@@ -50,6 +50,8 @@ import img47 from '../Images/DisplayPics/47.jpg';
 import img48 from '../Images/DisplayPics/48.jpg';
 import img49 from '../Images/DisplayPics/49.jpg';
 import img50 from '../Images/DisplayPics/50.jpg';
+import img51 from '../Images/DisplayPics/51.jpg';
+import img52 from '../Images/DisplayPics/52.jpg';
 import Navbar from './../navbar/Navbar';
 import Footer from "../Footer/Footer";
 const Team = () => {
@@ -73,8 +75,8 @@ const Team = () => {
       id: 2,
       src: img2,
       name: "Dr. S Veeramani",
-      post: "Advisor",
-      dom: "Open Source Domain",
+      post: "Club Advisor",
+      dom: "",
       desc: "Dr. Veeramani S. currently serves as Assistant Professor (Sr. Gr.) at the Department of Computer Science and Engineering, School of Computing, Amrita Vishwa Vidyapeetham, Chennai Campus. \n",
       mail: "mailto:s_veeramani@ch.amrita.edu",
       // gitHub: "",
@@ -98,7 +100,7 @@ const Team = () => {
       src: img19,
       name: "Mukesh K",
       post: "Vice-President",
-      dom: "Open Source Domain",
+      dom: "",
       desc: "One of the coordinators in Open-Source domain. My area of expertise includes machine learning and back-end development. I have worked with libraries and frameworks like TensorFlow, PyTorch, Flask, and Django. Currently working on computer vison and NLP based projects.",
       mail: "mailto:mukeshkvmj@gmail.com",
       gitHub: "https://github.com/mukesh663",
@@ -313,13 +315,26 @@ const Team = () => {
       id: 20,
       src: img20,
       name: "Aparna J",
-      post: "Co-ordinator",
+      post: "Mentor",
       dom: "Artificial Intelligence Domain",
       desc: "I have been a member of Cognizance since 2020. I am currently a coordinator of AI domain of the club. My area of interests includes Data Science and Machine Learning. I've published tasks in ML for the members to understand and learn the basics. I have also had the privilege to give an open mic session on \"Robotic Process Automation\". The club has played a predominant role in inculcating peer learning and leadership skills.",
       mail: "mailto:aparnajay02@gmail.com ",
       gitHub: "https://github.com/aparna8902",
       linkIn: "https://www.linkedin.com/in/aparna-jayathirth-4b45261b4/",
       insta: "https://www.instagram.com/aparna_jayathirth/",
+    },
+    {
+      id:121,
+      src:img51,
+      name:'Moulika Sai',
+      post:'Mentor',
+      dom:'Artificial Intelligence Domain',
+      desc:'I am Moulika, a second-year Btech Computer Science student. I am one of the AI domain\'s mentors. My areas of interest include front-end development and machine learning. I would really like to work in this field, learn more about it, and enhance my understanding of it.',
+      mail:'',
+      gitHub:'',
+      linkIn:'',
+      insta:'',
+
     },
     {
       id: 21,
@@ -396,7 +411,7 @@ const Team = () => {
     },
     {
       id:108,
-      src:'',
+      src:img52,
       name:'Abhiram.J',
       post:'Mentor',
       dom:'CP domain',
@@ -572,12 +587,11 @@ const Team = () => {
       linkIn: "https://www.linkedin.com/in/sahrohit/",
       insta: "https://www.instagram.com/sah_rohite/",
     },
-    
     {
       id: 15,
       src: img16,
       name: "Tejendra Saradhi",
-      post: "Co-ordinator",
+      post: "Alumni",
       dom: "Cybersecurity Domain",
       desc: "I am Cybersecurity Coordinator. " +
           "I have been actively helping my peers " +
@@ -593,6 +607,35 @@ const Team = () => {
       linkIn: "https://www.linkedin.com/in/tejendra-saradhi/",
       insta: "https://www.instagram.com/y_tejas_y/",
     },
+    {
+      id: 28,
+      src: img25,
+      name: "Y Charan Krishna",
+      post: "Alumni",
+      dom: "Artificial Intelligence Domain",
+      desc: "",
+      mail: "mailto:yellapragadacharankrishna1234@gmail.com",
+      gitHub: "https://github.com/ycharankrishna",
+      linkIn: "www.linkedin.com/in/yellapragada-charan-krishna",
+      insta: "",
+    },
+    {
+      id: 27,
+      src: img32,
+      name: "Bhagavatula Yogiraj",
+      post: "Alumni",
+      dom: "Artificial Intelligence Domain",
+      desc: "This is Bhagavatula Yogiraj, currently in AI Domain as a student " +
+          "mentor. I have passion in learning AI, Data Structures, Full-Stack " +
+          "web development. I also participate in hackathons often. " +
+          "I have given tasks related to AI to the club members which " +
+          "help them to give a push in learning concepts in AI. ",
+      mail: "mailto:yogi28bhagavatula@gmail.com",
+      gitHub: "https://github.com/Yogiraj587",
+      linkIn: "https://www.linkedin.com/in/yogiraj-bhagavatula-741159213/",
+      insta: "https://www.instagram.com/yogirajbhagavatula/",
+    },
+    
     
     {
       id: 18,
@@ -657,49 +700,22 @@ const Team = () => {
       insta: "https://instagram.com/__.r4hul___",
     },
     
-    // {
-    //   id: 27,
-    //   src: img32,
-    //   name: "Bhagavatula Yogiraj",
-    //   post: "Mentor",
-    //   dom: "Artificial Intelligence Domain",
-    //   desc: "This is Bhagavatula Yogiraj, currently in AI Domain as a student " +
-    //       "mentor. I have passion in learning AI, Data Structures, Full-Stack " +
-    //       "web development. I also participate in hackathons often. " +
-    //       "I have given tasks related to AI to the club members which " +
-    //       "help them to give a push in learning concepts in AI. ",
-    //   mail: "mailto:yogi28bhagavatula@gmail.com",
-    //   gitHub: "https://github.com/Yogiraj587",
-    //   linkIn: "https://www.linkedin.com/in/yogiraj-bhagavatula-741159213/",
-    //   insta: "https://www.instagram.com/yogirajbhagavatula/",
-    // },
-    {
-      id: 28,
-      src: img25,
-      name: "Y Charan Krishna",
-      post: "Mentor",
-      dom: "Artificial Intelligence Domain",
-      desc: "",
-      mail: "mailto:yellapragadacharankrishna1234@gmail.com",
-      gitHub: "https://github.com/ycharankrishna",
-      linkIn: "www.linkedin.com/in/yellapragada-charan-krishna",
-      insta: "",
-    },
+    
 
    
     
-    {
-      id: 32,
-      src: img35,
-      name: "Siddhant Kundargi",
-      post: "Jr. Co-ordinator",
-      dom: "Cybersecurity Domain",
-      desc: "Driven by SHEER curiosity and Impatience, with god gifted energy and enthusiasm I like to get people involved. Involved to a point that they no more need me to keep them going deeper. I am a part of the CyberSec and Open Source branch of Cognizance, and with passion I enjoy and will make you enjoy everything there is that we learn through this club",
-      mail: "mailto:sidkundargi@gmail.com ",
-      gitHub: "https://github.com/Siddhant-Kundargi",
-      linkIn: "https://www.linkedin.com/in/siddhant-kundargi-572152177",
-      insta: "https://www.instagram.com/kundargi_siddhant_official",
-    },
+    // {
+    //   id: 32,
+    //   src: img35,
+    //   name: "Siddhant Kundargi",
+    //   post: "Jr. Co-ordinator",
+    //   dom: "Cybersecurity Domain",
+    //   desc: "Driven by SHEER curiosity and Impatience, with god gifted energy and enthusiasm I like to get people involved. Involved to a point that they no more need me to keep them going deeper. I am a part of the CyberSec and Open Source branch of Cognizance, and with passion I enjoy and will make you enjoy everything there is that we learn through this club",
+    //   mail: "mailto:sidkundargi@gmail.com ",
+    //   gitHub: "https://github.com/Siddhant-Kundargi",
+    //   linkIn: "https://www.linkedin.com/in/siddhant-kundargi-572152177",
+    //   insta: "https://www.instagram.com/kundargi_siddhant_official",
+    // },
     
   ];
 
