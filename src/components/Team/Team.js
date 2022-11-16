@@ -99,7 +99,7 @@ const Team = () => {
       src: img19,
       name: "Mukesh K",
       post: "Vice-President",
-      dom: "",
+      dom: "Open Source Domain",
       desc: "One of the coordinators in Open-Source domain. My area of expertise includes machine learning and back-end development. I have worked with libraries and frameworks like TensorFlow, PyTorch, Flask, and Django. Currently working on computer vison and NLP based projects.",
       mail: "mailto:mukeshkvmj@gmail.com",
       gitHub: "https://github.com/mukesh663",
@@ -119,18 +119,6 @@ const Team = () => {
       insta: "https://www.instagram.com/sudiptha_reddy",
     },
     {
-      id: 100,
-      src: img37,
-      name:" Skandha VS",
-      post: 'Co-ordinator',
-      dom: 'Open Source Domain',
-      desc : 'I am one of the junior coordinators of the Open Source Domain. I have been a member of Cognizance in both the AI and OS domains before becoming a coordiantor. My interests include Web Development and Machine Learning.',
-      mail: " ",
-      gitHub: '',
-      linkIn: '',
-      insta: '',
-    },
-    {
       id: 17,
       src: img22,
       name: "Abhinandhan S",
@@ -141,6 +129,18 @@ const Team = () => {
       gitHub: "https://github.com/STRIZERORTIX",
       linkIn: "https://www.linkedin.com/in/strizerortix/",
       insta: "https://www.instagram.com/strizer_ortix/",
+    },
+    {
+      id: 100,
+      src: img37,
+      name:" Skandha VS",
+      post: 'Co-ordinator',
+      dom: 'Open Source Domain',
+      desc : 'I am one of the junior coordinators of the Open Source Domain. I have been a member of Cognizance in both the AI and OS domains before becoming a coordiantor. My interests include Web Development and Machine Learning.',
+      mail: " ",
+      gitHub: '',
+      linkIn: '',
+      insta: '',
     },
     {
       id:99,
@@ -366,10 +366,10 @@ const Team = () => {
       post:'Co-ordinator',
       dom:'CP Domain',
       desc:'Hey there, I am Kavikumar 2nd year CSE. I am a full stack developer, also coordinator of cp domain. I am also a ML Enthusiast and a open source contributor. I am currently building community to help and contribute to the society and world wide.',
-      mail:'',
-      gitHub:'',
-      linkIn:'',
-      insta:''
+      mail:'mailto:kavikumarceo@gmail.com',
+      gitHub:'https://github.com/thekavikumar',
+      linkIn:'https://www.linkedin.com/in/thekavikumar/',
+      insta:'https://www.instagram.com/mr.cyber_ninja/'
       
     },
     {
