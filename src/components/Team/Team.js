@@ -97,7 +97,7 @@ const Team = () => {
       src: img19,
       name: "Mukesh K",
       post: "Vice-President",
-      dom: "Open Source Domain",
+     // dom: "Open Source Domain",
       desc: "One of the coordinators in Open-Source domain. My area of expertise includes machine learning and back-end development. I have worked with libraries and frameworks like TensorFlow, PyTorch, Flask, and Django. Currently working on computer vison and NLP based projects.",
       mail: "mailto:mukeshkvmj@gmail.com",
       gitHub: "https://github.com/mukesh663",
