@@ -351,10 +351,10 @@ const Team = () => {
       post:'Co-ordinator',
       dom:'CP Domain',
       desc:'Hey there, I am Kavikumar 2nd year CSE. I am a full stack developer, also coordinator of cp domain. I am also a ML Enthusiast and a open source contributor. I am currently building community to help and contribute to the society and world wide.',
-      mail:'',
-      gitHub:'',
-      linkIn:'',
-      insta:''
+      mail:'mailto:kavikumarceo@gmail.com',
+      gitHub:'https://github.com/thekavikumar',
+      linkIn:'https://www.linkedin.com/in/thekavikumar/',
+      insta:'https://www.instagram.com/mr.cyber_ninja/'
       
     },
     {
