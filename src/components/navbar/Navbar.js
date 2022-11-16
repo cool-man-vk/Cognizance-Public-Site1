@@ -44,7 +44,7 @@ const Navbar = () => {
                     <FaBars />
                 </button>
                 <div className="apply-B">
-                    <a className="B third" href="https://forms.gle/R6tD43pkSjMKpzPk7" target="_blank" rel="noreferrer">Apply</a>
+                    <a className="B third" href="https://docs.google.com/forms/d/1i_s_uqJnGm5YFVm1juMnZ2F05LxnnPMti-XTq7twSWI" target="_blank" rel="noreferrer">Apply</a>
                 </div>
                     
                 
