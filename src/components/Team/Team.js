@@ -31,7 +31,6 @@ import img28 from "../Images/DisplayPics/28.jpg";
 import img29 from "../Images/DisplayPics/29.jpg";
 import img30 from "../Images/DisplayPics/30.jpg";
 import img31 from "../Images/DisplayPics/31.jpg";
-import img32 from "../Images/DisplayPics/32.jpg";
 import img33 from "../Images/DisplayPics/33.jpg";
 import img34 from "../Images/DisplayPics/34.jpeg";
 // import img35 from "../Images/DisplayPics/35.jpg";
