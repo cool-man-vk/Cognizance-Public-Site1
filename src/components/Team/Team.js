@@ -100,24 +100,12 @@ const Team = () => {
       src: img19,
       name: "Mukesh K",
       post: "Vice-President",
-      dom: "Open Source Domain",
+      //dom: "Open Source Domain",
       desc: "One of the coordinators in Open-Source domain. My area of expertise includes machine learning and back-end development. I have worked with libraries and frameworks like TensorFlow, PyTorch, Flask, and Django. Currently working on computer vison and NLP based projects.",
       mail: "mailto:mukeshkvmj@gmail.com",
       gitHub: "https://github.com/mukesh663",
       linkIn: "https://www.linkedin.com/in/mukesh-k-4a4a0b1ba/",
       insta: "https://www.instagram.com/mukesh_k.13/",
-    },
-    {
-      id: 30,
-      src: img18,
-      name: "Sudiptha A",
-      post: "Co-ordinator",
-      dom: "Open Source Domain",
-      desc: "Hello!  I have been part of the Open Source domain of Cognizance for more than a year now.  Completing the tasks on various topics outside of the curriculum helps me upskill myself. Being a mentor gives me the pleasure of guiding my fellow club members. ",
-      mail: "mailto:sudipthawilma@gmail.com",
-      gitHub: "https://github.com/sudipthaa",
-      linkIn: "https://www.linkedin.com/in/sudiptha-athmaraman-060135202",
-      insta: "https://www.instagram.com/sudiptha_reddy",
     },
     {
       id: 17,
@@ -142,6 +130,18 @@ const Team = () => {
       gitHub: '',
       linkIn: '',
       insta: '',
+    },
+        {
+      id: 30,
+      src: img18,
+      name: "Sudiptha A",
+      post: "Co-ordinator",
+      dom: "Open Source Domain",
+      desc: "Hello!  I have been part of the Open Source domain of Cognizance for more than a year now.  Completing the tasks on various topics outside of the curriculum helps me upskill myself. Being a mentor gives me the pleasure of guiding my fellow club members. ",
+      mail: "mailto:sudipthawilma@gmail.com",
+      gitHub: "https://github.com/sudipthaa",
+      linkIn: "https://www.linkedin.com/in/sudiptha-athmaraman-060135202",
+      insta: "https://www.instagram.com/sudiptha_reddy",
     },
     {
       id:99,
@@ -299,6 +299,19 @@ const Team = () => {
       linkIn: "https://www.linkedin.com/in/shandilyathithyaa-manivannan-a760401bb/",
       insta: "https://www.instagram.com/_shandilyathithyaa_/",
     },
+        {
+      id:121,
+      src:img51,
+      name:'Moulika Sai',
+      post:'Mentor',
+      dom:'Artificial Intelligence Domain',
+      desc:'I am Moulika, a second-year Btech Computer Science student. I am one of the AI domain\'s mentors. My areas of interest include front-end development and machine learning. I would really like to work in this field, learn more about it, and enhance my understanding of it.',
+      mail:'',
+      gitHub:'',
+      linkIn:'',
+      insta:'',
+
+    },
     {
       id: 91,
       src:img45,
@@ -322,19 +335,6 @@ const Team = () => {
       gitHub: "https://github.com/aparna8902",
       linkIn: "https://www.linkedin.com/in/aparna-jayathirth-4b45261b4/",
       insta: "https://www.instagram.com/aparna_jayathirth/",
-    },
-    {
-      id:121,
-      src:img51,
-      name:'Moulika Sai',
-      post:'Mentor',
-      dom:'Artificial Intelligence Domain',
-      desc:'I am Moulika, a second-year Btech Computer Science student. I am one of the AI domain\'s mentors. My areas of interest include front-end development and machine learning. I would really like to work in this field, learn more about it, and enhance my understanding of it.',
-      mail:'',
-      gitHub:'',
-      linkIn:'',
-      insta:'',
-
     },
     {
       id: 21,
@@ -446,6 +446,68 @@ const Team = () => {
       insta:''
     },
 
+{
+      id: 18,
+      src: img17,
+      name: "Dhanvinesh K",
+      post: "Co-ordinator",
+      dom: "Cybersecurity Domain",
+      desc: "I am Dhanvinesh pursuing BTech Computer Science with Cybersecurity " +
+          "specialization (3rd year). I am one of the Co-ordinators of CYS domain " +
+          "and also a member of Opensource. I have experience in UI design and " +
+          "I am a backend developer. I've experience in working with frameworks " +
+          "like Django, Vue, Flask, Firebase and some more frameworks which " +
+          "helped me participating in some hackathons and related workshops. " +
+          "I have been participating in a lot of CTFs and related conferences " +
+          "for the past two years. I've experience in Web exploitation, " +
+          "Forensics, Networking, OSINT and some Cryptography and " +
+          "Penetration testing.",
+      mail: "mailto:dhanvineshk2003@gmail.com",
+      gitHub: "https://github.com/Reaper-Dhan",
+      linkIn: "https://www.linkedin.com/in/reaperdhan",
+      insta: "https://www.instagram.com/_.r34p3r_dhan._/",
+    },  
+    
+    {
+      id: 19,
+      src: img23,
+      name: "Aghilan A",
+      post: "Mentor",
+      dom: "Cybersecurity Domain",
+      desc: "I joined the club when I was in first year and has been actively participating in the tasks and competitions related to Cybersecurity. Was given the mentor role and to my best knowledge provide support to the coordinators and the club. Interested to work in reverse engineering, cryptography, embedded security.",
+      mail: "mailto:aghilan.cuber@gmail.com",
+      gitHub: "https://github.com/Aghilan-A",
+      linkIn: "https://www.linkedin.com/in/aghilan-a-716521230/",
+      insta: "",
+    },
+
+    
+    {
+      id: 22,
+      src: img30,
+      name: "Shraddha Chopra",
+      post: "Mentor",
+      dom: "Cybersecurity Domain",
+      desc: "Image Forensics intrigued me in CTFs. Henceforth, started contributing to the cybersecurity domain as a mentor. Also a part of the CTF team Cyber0ids, previously known as Parallel Flag. My interests include Artificial Intelligence, Image Processing & Cyber Forensics. Happy to impart and gain knowledge thru this club:)",
+      mail: "mailto:shraddha5chopra@gmail.com",
+      gitHub: "https://github.com/shraddha5chopra",
+      linkIn: "https://www.linkedin.com/in/shraddha-chopra-57978b1b0/",
+      insta: "https://www.instagram.com/_.__shraddha/",
+    },
+
+    
+    {
+      id: 25,
+      src: img27,
+      name: "Rahul Sreenivasan",
+      post: "Mentor",
+      dom: "Cybersecurity Domain",
+      desc: "I am Rahul Sreenivasan from Cybersecurity - Batch 2020, mentor of Cognizance (Cybersecurity domain). I work in various cybersecurity fields - Networking, Penetration testing, Reverse Engineering, Web Exploitation, Digital Forensics and Cryptography. I have been participating in lots of CTFs and conferences for past 4-5 years. Also I am part of team Cyber0ids and ParallelFlags. ",
+      mail: "mailto:rahulnov26@gmail.com",
+      gitHub: "https://github.com/Tr0j4n1",
+      linkIn: "https://www.linkedin.com/in/rahul-sreenivasan-aa9293215",
+      insta: "https://instagram.com/__.r4hul___",
+    },
 
 
 
@@ -634,70 +696,6 @@ const Team = () => {
       gitHub: "https://github.com/Yogiraj587",
       linkIn: "https://www.linkedin.com/in/yogiraj-bhagavatula-741159213/",
       insta: "https://www.instagram.com/yogirajbhagavatula/",
-    },
-    
-    
-    {
-      id: 18,
-      src: img17,
-      name: "Dhanvinesh K",
-      post: "Co-ordinator",
-      dom: "Cybersecurity Domain",
-      desc: "I am Dhanvinesh pursuing BTech Computer Science with Cybersecurity " +
-          "specialization (3rd year). I am one of the Co-ordinators of CYS domain " +
-          "and also a member of Opensource. I have experience in UI design and " +
-          "I am a backend developer. I've experience in working with frameworks " +
-          "like Django, Vue, Flask, Firebase and some more frameworks which " +
-          "helped me participating in some hackathons and related workshops. " +
-          "I have been participating in a lot of CTFs and related conferences " +
-          "for the past two years. I've experience in Web exploitation, " +
-          "Forensics, Networking, OSINT and some Cryptography and " +
-          "Penetration testing.",
-      mail: "mailto:dhanvineshk2003@gmail.com",
-      gitHub: "https://github.com/Reaper-Dhan",
-      linkIn: "https://www.linkedin.com/in/reaperdhan",
-      insta: "https://www.instagram.com/_.r34p3r_dhan._/",
-    },  
-    
-    {
-      id: 19,
-      src: img23,
-      name: "Aghilan A",
-      post: "Mentor",
-      dom: "Cybersecurity Domain",
-      desc: "I joined the club when I was in first year and has been actively participating in the tasks and competitions related to Cybersecurity. Was given the mentor role and to my best knowledge provide support to the coordinators and the club. Interested to work in reverse engineering, cryptography, embedded security.",
-      mail: "mailto:aghilan.cuber@gmail.com",
-      gitHub: "https://github.com/Aghilan-A",
-      linkIn: "https://www.linkedin.com/in/aghilan-a-716521230/",
-      insta: "",
-    },
-
-    
-    {
-      id: 22,
-      src: img30,
-      name: "Shraddha Chopra",
-      post: "Mentor",
-      dom: "Cybersecurity Domain",
-      desc: "Image Forensics intrigued me in CTFs. Henceforth, started contributing to the cybersecurity domain as a mentor. Also a part of the CTF team Cyber0ids, previously known as Parallel Flag. My interests include Artificial Intelligence, Image Processing & Cyber Forensics. Happy to impart and gain knowledge thru this club:)",
-      mail: "mailto:shraddha5chopra@gmail.com",
-      gitHub: "https://github.com/shraddha5chopra",
-      linkIn: "https://www.linkedin.com/in/shraddha-chopra-57978b1b0/",
-      insta: "https://www.instagram.com/_.__shraddha/",
-    },
-
-    
-    {
-      id: 25,
-      src: img27,
-      name: "Rahul Sreenivasan",
-      post: "Mentor",
-      dom: "Cybersecurity Domain",
-      desc: "I am Rahul Sreenivasan from Cybersecurity - Batch 2020, mentor of Cognizance (Cybersecurity domain). I work in various cybersecurity fields - Networking, Penetration testing, Reverse Engineering, Web Exploitation, Digital Forensics and Cryptography. I have been participating in lots of CTFs and conferences for past 4-5 years. Also I am part of team Cyber0ids and ParallelFlags. ",
-      mail: "mailto:rahulnov26@gmail.com",
-      gitHub: "https://github.com/Tr0j4n1",
-      linkIn: "https://www.linkedin.com/in/rahul-sreenivasan-aa9293215",
-      insta: "https://instagram.com/__.r4hul___",
     },
     
     
