@@ -23,6 +23,19 @@ import YU from "../Images/Achievements/YU.png";
 import UAWS from "../Images/Achievements/UAWS.png";
 import TC from "../Images/Achievements/TC.png";
 import IN from "../Images/Achievements/IN.png";
+import cloudHero from '../Images/Achievements/cloud-hero.jpg';
+import psg from '../Images/Achievements/psg.jpeg';
+import gsoc from '../Images/Achievements/gsoc.jpeg';
+import hackTheGalaxy from '../Images/Achievements/hack-the-galaxy.jpeg';
+import mitacs from '../Images/Achievements/mitacs.jpeg';
+import deepDive from '../Images/Achievements/deep-dive.jpg';
+import volatality from '../Images/Achievements/volatality.jpeg';
+import fractal1 from '../Images/Achievements/fractal-1.jpg';
+import fractal2 from '../Images/Achievements/fractal-2.jpg';
+import fidelity from '../Images/Achievements/fidelity.jpg';
+import jpMorgan from '../Images/Achievements/jp-morgan.jpeg';
+import upagraha1 from '../Images/Achievements/upagraha-1.jpg';
+import upagraha2 from '../Images/Achievements/upagraha-2.jpg';
 
 class Achievements extends Component {
   state = {
@@ -56,6 +69,203 @@ class Achievements extends Component {
             margin={9}
             responsive={this.state.responsive}
           >
+            <div class="Achievement_card">
+              <div class="Achievement_card_inner">
+                <div class="Achievement_front_face">
+                  <img src={cloudHero} alt="" />
+                </div>
+                <div class="Achievement_back_face">
+                  <p>
+                    <span class="hil">Congratulations!✨ to Kavi Kumar</span>
+                    <br />
+                    Kavi Kumar from 2nd Year CSE has secured 2nd place in the Cloud Hero Hackathon 
+                    conducted by Google Cloud at Infosys Chennai. We congratulate him for his future endeavors.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="Achievement_card">
+              <div class="Achievement_card_inner">
+                <div class="Achievement_front_face">
+                  <img src={psg} alt="" />
+                </div>
+                <div class="Achievement_back_face">
+                  <p>
+                    <span class="hil">Congratulations!✨ to Team Bit'n Bytes</span>
+                    <br />
+                    We are happy to inform that the team Bits'n Bytes
+                    have emerged as the second runners-up and have won a cash prize of Rs.25000.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="Achievement_card">
+              <div class="Achievement_card_inner">
+                <div class="Achievement_front_face">
+                  <img src={gsoc} alt="" />
+                </div>
+                <div class="Achievement_back_face">
+                  <p>
+                    <span class="hil">Congratulations!✨ to Naresh Kumar</span>
+                    <br />
+                    Mr. Naresh's Open Source Project Topic and Organization:
+                    Organization : INCF
+                    Project : Developing a Latex to XML pipeline and exploring a standalone 
+                    platform for NBDT Journal.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="Achievement_card">
+              <div class="Achievement_card_inner">
+                <div class="Achievement_front_face">
+                  <img src={hackTheGalaxy} alt="" />
+                </div>
+                <div class="Achievement_back_face">
+                  <p>
+                    <span class="hil">Congratulations!✨ to the team</span>
+                    <br />
+                    The team won under the track "Build the Best Super App" in Hack the Galaxy 2022. 
+                    The team proposed an idea to have an auction platform along with a crowdfunding platform such that 
+                    the base auction amount of the auction will be directly transfered to the crowdfunding activity . 
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="Achievement_card">
+              <div class="Achievement_card_inner">
+                <div class="Achievement_front_face">
+                  <img src={mitacs} alt="" />
+                </div>
+                <div class="Achievement_back_face">
+                  <p>
+                    <span class="hil">Congratulations!✨ to Sanjay Thiyagarajan</span>
+                    <br />
+                    He has successfully obtained the prestigious "Mitacs Globalink Research Internship".
+                    Sanjay undertook research in the subject of DNA methylation and aging under 
+                    the supervision of Professor Hosna Jabbari. His research 
+                    primarily focussed on implication of DNA methylation on biological aging and disease progression.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="Achievement_card">
+              <div class="Achievement_card_inner">
+                <div class="Achievement_front_face">
+                  <img src={deepDive} alt="" />
+                </div>
+                <div class="Achievement_back_face">
+                  <p>
+                    <span class="hil">Congratulations!✨ to team Bits'n Bytes</span>
+                    <br />
+                    Congratulations to Team Bits n Bytes for
+                    winning Deep Dive hacks organised by MLH .
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="Achievement_card">
+              <div class="Achievement_card_inner">
+                <div class="Achievement_front_face">
+                  <img src={volatality} alt="" />
+                </div>
+                <div class="Achievement_back_face">
+                  <p>
+                    <span class="hil">Congratulations!✨ to Tejendra Saradhi</span>
+                    <br />
+                    Tejandra Saradhi put in over months of diligent effort on the"Volshell-A CLI tool for 
+                    working with memory" project and has significantly improved the 
+                    Volshell documentation that will be utilised by many people across the world.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="Achievement_card">
+              <div class="Achievement_card_inner">
+                <div class="Achievement_front_face">
+                  <img src={fractal1} alt="" />
+                </div>
+                <div class="Achievement_back_face">
+                  <p>
+                    <span class="hil">Congratulations!✨ to Sudiptha</span>
+                    <br />
+                   
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="Achievement_card">
+              <div class="Achievement_card_inner">
+                <div class="Achievement_front_face">
+                  <img src={fractal2} alt="" />
+                </div>
+                <div class="Achievement_back_face">
+                  <p>
+                    <span class="hil">Congratulations!✨ to Jyothika Nambiar.</span>
+                    <br />
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="Achievement_card">
+              <div class="Achievement_card_inner">
+                <div class="Achievement_front_face">
+                  <img src={fidelity} alt="" />
+                </div>
+                <div class="Achievement_back_face">
+                  <p>
+                    <span class="hil">Congratulations!✨ to Aparna.</span>
+                    <br />
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="Achievement_card">
+              <div class="Achievement_card_inner">
+                <div class="Achievement_front_face">
+                  <img src={jpMorgan} alt="" />
+                </div>
+                <div class="Achievement_back_face">
+                  <p>
+                    <span class="hil">Congratulations!✨ to Mukesh.</span>
+                    <br />
+                    Mr. MUKESH’s Team chose the problem statement provided by the NGO "Saday Sadev" and was 
+                    based on their mental health initiative. It was 'It's Okay Not to Be Okay" which connects 
+                    the clients with the mental health professionals forming a one stop solution for all mental health problems. 
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="Achievement_card">
+              <div class="Achievement_card_inner">
+                <div class="Achievement_front_face">
+                  <img src={upagraha1} alt="" />
+                </div>
+                <div class="Achievement_back_face">
+                  <p>
+                    <span class="hil">Congratulations!✨ to Dharshana.</span>
+                    <br />
+                    We are happy to share that Darshana D of 3rd year CSE has secured first place in the CRTL + ALT + CODE 
+                    event of UPAGRAHA'22 and won a cash prize of Rs. 1000 + winners certificate. 
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="Achievement_card">
+              <div class="Achievement_card_inner">
+                <div class="Achievement_front_face">
+                  <img src={upagraha2} alt="" />
+                </div>
+                <div class="Achievement_back_face">
+                  <p>
+                    <span class="hil">Congratulations!✨ to Kishore Kumar.</span>
+                    <br />
+                    We are happy to share that Kishore Kumar AV of 3rd year CSE has secured 1st runner up position in 
+                    the CRTL + ALT + CODE event of UPAGRAHA'22 and won a cash prize of Rs. 750 + Runner-up certificate.
+                  </p>
+                </div>
+              </div>
+            </div>
             <div class="Achievement_card">
               <div class="Achievement_card_inner">
                 <div class="Achievement_front_face">
