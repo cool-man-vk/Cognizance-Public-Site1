@@ -32,10 +32,15 @@ const Navbar = () => {
                     <li>
                         <a href="/gallery"> Gallery </a>
                     </li>
+
                     <li>
                         <a href="https://preliminary-tasks.cognizance-amrita.in/" target="_blank" rel="noreferrer"> Preliminary Tasks </a>
                     </li>
                     
+                    <li>
+                        <a href="https://docs.google.com/forms/d/1i_s_uqJnGm5YFVm1juMnZ2F05LxnnPMti-XTq7twSWI"> Apply </a>
+                    </li>
+
                     <button className="nav_btn nav_close" onClick={handleClick}>
                         <FaTimes />
                     </button>
@@ -43,9 +48,9 @@ const Navbar = () => {
                 <button className="nav_btn nav_bar" onClick={handleClick}>
                     <FaBars />
                 </button>
-                <div className="apply-B">
-                    <a className="B third" href="https://docs.google.com/forms/d/1i_s_uqJnGm5YFVm1juMnZ2F05LxnnPMti-XTq7twSWI" target="_blank" rel="noreferrer">Apply</a>
-                </div>
+                //<div className="apply-B">
+                  //  <a className="B third" href="https://docs.google.com/forms/d/1i_s_uqJnGm5YFVm1juMnZ2F05LxnnPMti-XTq7twSWI" target="_blank" rel="noreferrer">Apply</a>
+                //</div>
                     
                 
             </header> 
